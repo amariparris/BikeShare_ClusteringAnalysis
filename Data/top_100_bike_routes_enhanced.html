@@ -1,0 +1,3023 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0fde4bc3763bbbdc2b6bac126a7666a7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0fde4bc3763bbbdc2b6bac126a7666a7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0fde4bc3763bbbdc2b6bac126a7666a7 = L.map(
+                "map_0fde4bc3763bbbdc2b6bac126a7666a7",
+                {
+                    center: [42.3601, -71.0589],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_330725867d662859b151976ea5b05afd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_330725867d662859b151976ea5b05afd.addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+            var poly_line_f902b83ae0fff974a135735a74b632a5 = L.polyline(
+                [[42.36507, -71.1031], [42.359573, -71.101295]],
+                {"bubblingMouseEvents": true, "color": "#081d58ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#081d58ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_92a4f5456b31a100a754226861df8a44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de6348e9acaaeae2ed254a8af8ab1974 = $(`<div id="html_de6348e9acaaeae2ed254a8af8ab1974" style="width: 100.0%; height: 100.0%;">1483 rides</div>`)[0];
+                popup_92a4f5456b31a100a754226861df8a44.setContent(html_de6348e9acaaeae2ed254a8af8ab1974);
+            
+        
+
+        poly_line_f902b83ae0fff974a135735a74b632a5.bindPopup(popup_92a4f5456b31a100a754226861df8a44)
+        ;
+
+        
+    
+    
+            poly_line_f902b83ae0fff974a135735a74b632a5.bindTooltip(
+                `<div>
+                     Route from Central Square at Mass Ave / Essex St to MIT Pacific St at Purrington St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c539e1235da0e032686f016bc2adf3e2 = L.polyline(
+                [[42.3581, -71.093198], [42.355601, -71.103945]],
+                {"bubblingMouseEvents": true, "color": "#0e2266ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#0e2266ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_ff516715bfa313856af9b7dadf21d357 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb4cf72cbd326c59caeeda1e6406a5cd = $(`<div id="html_fb4cf72cbd326c59caeeda1e6406a5cd" style="width: 100.0%; height: 100.0%;">1439 rides</div>`)[0];
+                popup_ff516715bfa313856af9b7dadf21d357.setContent(html_fb4cf72cbd326c59caeeda1e6406a5cd);
+            
+        
+
+        poly_line_c539e1235da0e032686f016bc2adf3e2.bindPopup(popup_ff516715bfa313856af9b7dadf21d357)
+        ;
+
+        
+    
+    
+            poly_line_c539e1235da0e032686f016bc2adf3e2.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to MIT Vassar St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e5fb06f51efe6481e4cc91597f41aea4 = L.polyline(
+                [[42.3581, -71.093198], [42.36507, -71.1031]],
+                {"bubblingMouseEvents": true, "color": "#152773ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#152773ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_53c24d3434ef4c826e2f40b8a218d2c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_637184d7d4fb011eca89933b0d187795 = $(`<div id="html_637184d7d4fb011eca89933b0d187795" style="width: 100.0%; height: 100.0%;">1398 rides</div>`)[0];
+                popup_53c24d3434ef4c826e2f40b8a218d2c9.setContent(html_637184d7d4fb011eca89933b0d187795);
+            
+        
+
+        poly_line_e5fb06f51efe6481e4cc91597f41aea4.bindPopup(popup_53c24d3434ef4c826e2f40b8a218d2c9)
+        ;
+
+        
+    
+    
+            poly_line_e5fb06f51efe6481e4cc91597f41aea4.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to Central Square at Mass Ave / Essex St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3136db886dba6d37c56bb644b4348129 = L.polyline(
+                [[42.373268, -71.118579], [42.380287, -71.125107]],
+                {"bubblingMouseEvents": true, "color": "#162876ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#162876ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_c93e90ee99f291fa85dab4c4f89eb707 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_256a32ccd0c5176c7b2b946222f642cd = $(`<div id="html_256a32ccd0c5176c7b2b946222f642cd" style="width: 100.0%; height: 100.0%;">1389 rides</div>`)[0];
+                popup_c93e90ee99f291fa85dab4c4f89eb707.setContent(html_256a32ccd0c5176c7b2b946222f642cd);
+            
+        
+
+        poly_line_3136db886dba6d37c56bb644b4348129.bindPopup(popup_c93e90ee99f291fa85dab4c4f89eb707)
+        ;
+
+        
+    
+    
+            poly_line_3136db886dba6d37c56bb644b4348129.bindTooltip(
+                `<div>
+                     Route from Harvard Square at Mass Ave/ Dunster to Harvard University Radcliffe Quadrangle at Shepard St / Garden St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_12865eca9fd0f91716de3999a59389a5 = L.polyline(
+                [[42.3581, -71.093198], [42.350827, -71.089811]],
+                {"bubblingMouseEvents": true, "color": "#182a7aff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#182a7aff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_1186edb25fae9bb6847dc7a5076165fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aa433a985e45b7a38cf886a5b00fb76 = $(`<div id="html_0aa433a985e45b7a38cf886a5b00fb76" style="width: 100.0%; height: 100.0%;">1378 rides</div>`)[0];
+                popup_1186edb25fae9bb6847dc7a5076165fb.setContent(html_0aa433a985e45b7a38cf886a5b00fb76);
+            
+        
+
+        poly_line_12865eca9fd0f91716de3999a59389a5.bindPopup(popup_1186edb25fae9bb6847dc7a5076165fb)
+        ;
+
+        
+    
+    
+            poly_line_12865eca9fd0f91716de3999a59389a5.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to Beacon St at Massachusetts Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_599f2743a0766f1b211f85e2b82b8fe1 = L.polyline(
+                [[42.355601, -71.103945], [42.362131, -71.091156]],
+                {"bubblingMouseEvents": true, "color": "#182a7aff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#182a7aff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_e5e65e6994848db788296c909b7f9d64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_374298b9432fe8b7bbc478db23f348bd = $(`<div id="html_374298b9432fe8b7bbc478db23f348bd" style="width: 100.0%; height: 100.0%;">1378 rides</div>`)[0];
+                popup_e5e65e6994848db788296c909b7f9d64.setContent(html_374298b9432fe8b7bbc478db23f348bd);
+            
+        
+
+        poly_line_599f2743a0766f1b211f85e2b82b8fe1.bindPopup(popup_e5e65e6994848db788296c909b7f9d64)
+        ;
+
+        
+    
+    
+            poly_line_599f2743a0766f1b211f85e2b82b8fe1.bindTooltip(
+                `<div>
+                     Route from MIT Vassar St to MIT Stata Center at Vassar St / Main St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5db3a4f0918f3761bdb709301fe87c71 = L.polyline(
+                [[42.355601, -71.103945], [42.3625, -71.08822]],
+                {"bubblingMouseEvents": true, "color": "#1d2e85ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d2e85ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_bcd3e1603357be2782f890df2497c735 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53a8c80141e92f1b30ad186dfc482a42 = $(`<div id="html_53a8c80141e92f1b30ad186dfc482a42" style="width: 100.0%; height: 100.0%;">1344 rides</div>`)[0];
+                popup_bcd3e1603357be2782f890df2497c735.setContent(html_53a8c80141e92f1b30ad186dfc482a42);
+            
+        
+
+        poly_line_5db3a4f0918f3761bdb709301fe87c71.bindPopup(popup_bcd3e1603357be2782f890df2497c735)
+        ;
+
+        
+    
+    
+            poly_line_5db3a4f0918f3761bdb709301fe87c71.bindTooltip(
+                `<div>
+                     Route from MIT Vassar St to Ames St at Main St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_03d4bc3d521be297de0539a996595b21 = L.polyline(
+                [[42.350827, -71.089811], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#243c98ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#243c98ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_81506d08edfa7b3d8467024cbcf35b99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dc92cc58f3e320f10367c07a835c16e = $(`<div id="html_6dc92cc58f3e320f10367c07a835c16e" style="width: 100.0%; height: 100.0%;">1259 rides</div>`)[0];
+                popup_81506d08edfa7b3d8467024cbcf35b99.setContent(html_6dc92cc58f3e320f10367c07a835c16e);
+            
+        
+
+        poly_line_03d4bc3d521be297de0539a996595b21.bindPopup(popup_81506d08edfa7b3d8467024cbcf35b99)
+        ;
+
+        
+    
+    
+            poly_line_03d4bc3d521be297de0539a996595b21.bindTooltip(
+                `<div>
+                     Route from Beacon St at Massachusetts Ave to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0503128032e79a01d58bef6083f2495f = L.polyline(
+                [[42.359573, -71.101295], [42.36507, -71.1031]],
+                {"bubblingMouseEvents": true, "color": "#24409aff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#24409aff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_6d25a8d8528c510fdae544b1c5504062 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db83fff5af10455a7742cf810ec6d029 = $(`<div id="html_db83fff5af10455a7742cf810ec6d029" style="width: 100.0%; height: 100.0%;">1245 rides</div>`)[0];
+                popup_6d25a8d8528c510fdae544b1c5504062.setContent(html_db83fff5af10455a7742cf810ec6d029);
+            
+        
+
+        poly_line_0503128032e79a01d58bef6083f2495f.bindPopup(popup_6d25a8d8528c510fdae544b1c5504062)
+        ;
+
+        
+    
+    
+            poly_line_0503128032e79a01d58bef6083f2495f.bindTooltip(
+                `<div>
+                     Route from MIT Pacific St at Purrington St to Central Square at Mass Ave / Essex St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3d9c2f23ea39cc0a3ed75a1273eb65f9 = L.polyline(
+                [[42.355601, -71.103945], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#24439cff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#24439cff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_94fa8afd8532f7f70cb6986f46b1fe6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_501e5e1b965eed85dff67b972db62abf = $(`<div id="html_501e5e1b965eed85dff67b972db62abf" style="width: 100.0%; height: 100.0%;">1229 rides</div>`)[0];
+                popup_94fa8afd8532f7f70cb6986f46b1fe6e.setContent(html_501e5e1b965eed85dff67b972db62abf);
+            
+        
+
+        poly_line_3d9c2f23ea39cc0a3ed75a1273eb65f9.bindPopup(popup_94fa8afd8532f7f70cb6986f46b1fe6e)
+        ;
+
+        
+    
+    
+            poly_line_3d9c2f23ea39cc0a3ed75a1273eb65f9.bindTooltip(
+                `<div>
+                     Route from MIT Vassar St to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c1a870df695aa76d85fe6cd0c5a28249 = L.polyline(
+                [[42.36507, -71.1031], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#2350a1ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2350a1ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_ac450aff59c0969dfe5fad16f5181aa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f803ef403e71464d01f32e75c0c6e4c8 = $(`<div id="html_f803ef403e71464d01f32e75c0c6e4c8" style="width: 100.0%; height: 100.0%;">1174 rides</div>`)[0];
+                popup_ac450aff59c0969dfe5fad16f5181aa2.setContent(html_f803ef403e71464d01f32e75c0c6e4c8);
+            
+        
+
+        poly_line_c1a870df695aa76d85fe6cd0c5a28249.bindPopup(popup_ac450aff59c0969dfe5fad16f5181aa2)
+        ;
+
+        
+    
+    
+            poly_line_c1a870df695aa76d85fe6cd0c5a28249.bindTooltip(
+                `<div>
+                     Route from Central Square at Mass Ave / Essex St to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_35f38940c1b4d75959e819ad5ea64b5c = L.polyline(
+                [[42.362131, -71.091156], [42.355601, -71.103945]],
+                {"bubblingMouseEvents": true, "color": "#2166acff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2166acff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_41190850edaca8ac5c2665ec3db77939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53e9203e0a7b51f6c483569628c33ede = $(`<div id="html_53e9203e0a7b51f6c483569628c33ede" style="width: 100.0%; height: 100.0%;">1081 rides</div>`)[0];
+                popup_41190850edaca8ac5c2665ec3db77939.setContent(html_53e9203e0a7b51f6c483569628c33ede);
+            
+        
+
+        poly_line_35f38940c1b4d75959e819ad5ea64b5c.bindPopup(popup_41190850edaca8ac5c2665ec3db77939)
+        ;
+
+        
+    
+    
+            poly_line_35f38940c1b4d75959e819ad5ea64b5c.bindTooltip(
+                `<div>
+                     Route from MIT Stata Center at Vassar St / Main St to MIT Vassar St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_39a5fd21345946f8e32baa7eb33addf4 = L.polyline(
+                [[42.359573, -71.101295], [42.3625, -71.08822]],
+                {"bubblingMouseEvents": true, "color": "#206bafff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#206bafff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_12eca195a94930fc53ffe9e2c52b8257 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e40d687b31c15f96f1d9c039f26b1417 = $(`<div id="html_e40d687b31c15f96f1d9c039f26b1417" style="width: 100.0%; height: 100.0%;">1063 rides</div>`)[0];
+                popup_12eca195a94930fc53ffe9e2c52b8257.setContent(html_e40d687b31c15f96f1d9c039f26b1417);
+            
+        
+
+        poly_line_39a5fd21345946f8e32baa7eb33addf4.bindPopup(popup_12eca195a94930fc53ffe9e2c52b8257)
+        ;
+
+        
+    
+    
+            poly_line_39a5fd21345946f8e32baa7eb33addf4.bindTooltip(
+                `<div>
+                     Route from MIT Pacific St at Purrington St to Ames St at Main St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_72f4c4c3167293e4e4939b080e5f45b9 = L.polyline(
+                [[42.380287, -71.125107], [42.373268, -71.118579]],
+                {"bubblingMouseEvents": true, "color": "#206dafff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#206dafff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_f13f04b023ac8da50ffb297c623af7a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a7a947c207ff8bdafa87246ad461c7b = $(`<div id="html_9a7a947c207ff8bdafa87246ad461c7b" style="width: 100.0%; height: 100.0%;">1059 rides</div>`)[0];
+                popup_f13f04b023ac8da50ffb297c623af7a3.setContent(html_9a7a947c207ff8bdafa87246ad461c7b);
+            
+        
+
+        poly_line_72f4c4c3167293e4e4939b080e5f45b9.bindPopup(popup_f13f04b023ac8da50ffb297c623af7a3)
+        ;
+
+        
+    
+    
+            poly_line_72f4c4c3167293e4e4939b080e5f45b9.bindTooltip(
+                `<div>
+                     Route from Harvard University Radcliffe Quadrangle at Shepard St / Garden St to Harvard Square at Mass Ave/ Dunster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_13fc5f464ce38fc27369afae2c756c40 = L.polyline(
+                [[42.359573, -71.101295], [42.362131, -71.091156]],
+                {"bubblingMouseEvents": true, "color": "#2072b2ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2072b2ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_4faddeaa2244df6050cadb2f6b23a49d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20cdb7b998b7eb680d38d99f54e3225b = $(`<div id="html_20cdb7b998b7eb680d38d99f54e3225b" style="width: 100.0%; height: 100.0%;">1038 rides</div>`)[0];
+                popup_4faddeaa2244df6050cadb2f6b23a49d.setContent(html_20cdb7b998b7eb680d38d99f54e3225b);
+            
+        
+
+        poly_line_13fc5f464ce38fc27369afae2c756c40.bindPopup(popup_4faddeaa2244df6050cadb2f6b23a49d)
+        ;
+
+        
+    
+    
+            poly_line_13fc5f464ce38fc27369afae2c756c40.bindTooltip(
+                `<div>
+                     Route from MIT Pacific St at Purrington St to MIT Stata Center at Vassar St / Main St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d906a0b2803ab660b5279b710c7616d1 = L.polyline(
+                [[42.351692, -71.119035], [42.349609, -71.103915]],
+                {"bubblingMouseEvents": true, "color": "#1e7fb8ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1e7fb8ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_3319a47daca1ee9a7cb6c70ad64b8f3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_714ba9897161710bb4189ffb457d395c = $(`<div id="html_714ba9897161710bb4189ffb457d395c" style="width: 100.0%; height: 100.0%;">992 rides</div>`)[0];
+                popup_3319a47daca1ee9a7cb6c70ad64b8f3e.setContent(html_714ba9897161710bb4189ffb457d395c);
+            
+        
+
+        poly_line_d906a0b2803ab660b5279b710c7616d1.bindPopup(popup_3319a47daca1ee9a7cb6c70ad64b8f3e)
+        ;
+
+        
+    
+    
+            poly_line_d906a0b2803ab660b5279b710c7616d1.bindTooltip(
+                `<div>
+                     Route from Commonwealth Ave at Agganis Way to 700 Commonwealth Ave.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b33a824ec8b7fa623a33bdd4d443deb3 = L.polyline(
+                [[42.359573, -71.101295], [42.360859, -71.085519]],
+                {"bubblingMouseEvents": true, "color": "#1e85baff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1e85baff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_9a45b58a82a1f80602acf1b22ab79e70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fff6d9346e51634e829fdec56ee36e9 = $(`<div id="html_6fff6d9346e51634e829fdec56ee36e9" style="width: 100.0%; height: 100.0%;">972 rides</div>`)[0];
+                popup_9a45b58a82a1f80602acf1b22ab79e70.setContent(html_6fff6d9346e51634e829fdec56ee36e9);
+            
+        
+
+        poly_line_b33a824ec8b7fa623a33bdd4d443deb3.bindPopup(popup_9a45b58a82a1f80602acf1b22ab79e70)
+        ;
+
+        
+    
+    
+            poly_line_b33a824ec8b7fa623a33bdd4d443deb3.bindTooltip(
+                `<div>
+                     Route from MIT Pacific St at Purrington St to MIT Hayward St at Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e91277ce9722be8023cbb75ad476ffdb = L.polyline(
+                [[42.362131, -71.091156], [42.359573, -71.101295]],
+                {"bubblingMouseEvents": true, "color": "#1e87bbff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1e87bbff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_88be4cf2bf6d172a8850eb451a0dd713 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_693b3f285a0f0662e4192b1aa47da10d = $(`<div id="html_693b3f285a0f0662e4192b1aa47da10d" style="width: 100.0%; height: 100.0%;">964 rides</div>`)[0];
+                popup_88be4cf2bf6d172a8850eb451a0dd713.setContent(html_693b3f285a0f0662e4192b1aa47da10d);
+            
+        
+
+        poly_line_e91277ce9722be8023cbb75ad476ffdb.bindPopup(popup_88be4cf2bf6d172a8850eb451a0dd713)
+        ;
+
+        
+    
+    
+            poly_line_e91277ce9722be8023cbb75ad476ffdb.bindTooltip(
+                `<div>
+                     Route from MIT Stata Center at Vassar St / Main St to MIT Pacific St at Purrington St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_07a02323c2d5dac00fefbc53aa5e53c1 = L.polyline(
+                [[42.359573, -71.101295], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#1d89bcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d89bcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_76ba7543ac4b9670c1784d0a92683475 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f7f97597ebc85208a277aa08a7a4eb1 = $(`<div id="html_7f7f97597ebc85208a277aa08a7a4eb1" style="width: 100.0%; height: 100.0%;">957 rides</div>`)[0];
+                popup_76ba7543ac4b9670c1784d0a92683475.setContent(html_7f7f97597ebc85208a277aa08a7a4eb1);
+            
+        
+
+        poly_line_07a02323c2d5dac00fefbc53aa5e53c1.bindPopup(popup_76ba7543ac4b9670c1784d0a92683475)
+        ;
+
+        
+    
+    
+            poly_line_07a02323c2d5dac00fefbc53aa5e53c1.bindTooltip(
+                `<div>
+                     Route from MIT Pacific St at Purrington St to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6e25fc782ced51f0c48fb167d02b43f5 = L.polyline(
+                [[42.3581, -71.093198], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#1d92c0ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d92c0ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_50f6e576ec6bd25893192e807ddb8762 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b69f00af69bcd6636eaddc54db9b234 = $(`<div id="html_2b69f00af69bcd6636eaddc54db9b234" style="width: 100.0%; height: 100.0%;">923 rides</div>`)[0];
+                popup_50f6e576ec6bd25893192e807ddb8762.setContent(html_2b69f00af69bcd6636eaddc54db9b234);
+            
+        
+
+        poly_line_6e25fc782ced51f0c48fb167d02b43f5.bindPopup(popup_50f6e576ec6bd25893192e807ddb8762)
+        ;
+
+        
+    
+    
+            poly_line_6e25fc782ced51f0c48fb167d02b43f5.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7158293fdaca1dd5938982757ea2238b = L.polyline(
+                [[42.331184, -71.095171], [42.336244, -71.087986]],
+                {"bubblingMouseEvents": true, "color": "#2095c1ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2095c1ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_b9465150454dc6281b65eb912b00ffc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4205d403c28ea3383b2493d7e5baa7b = $(`<div id="html_a4205d403c28ea3383b2493d7e5baa7b" style="width: 100.0%; height: 100.0%;">907 rides</div>`)[0];
+                popup_b9465150454dc6281b65eb912b00ffc7.setContent(html_a4205d403c28ea3383b2493d7e5baa7b);
+            
+        
+
+        poly_line_7158293fdaca1dd5938982757ea2238b.bindPopup(popup_b9465150454dc6281b65eb912b00ffc7)
+        ;
+
+        
+    
+    
+            poly_line_7158293fdaca1dd5938982757ea2238b.bindTooltip(
+                `<div>
+                     Route from Roxbury Crossing T Stop - Columbus Ave at Tremont St to Ruggles T Stop - Columbus Ave at Melnea Cass Blvd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ac6974298eabcdc8c008994dcf857521 = L.polyline(
+                [[42.336244, -71.087986], [42.331184, -71.095171]],
+                {"bubblingMouseEvents": true, "color": "#2196c1ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2196c1ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_f17cecd3e23b2527a0f0a7d80d934865 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b98262476ac90ad979f6ebc591c574a5 = $(`<div id="html_b98262476ac90ad979f6ebc591c574a5" style="width: 100.0%; height: 100.0%;">902 rides</div>`)[0];
+                popup_f17cecd3e23b2527a0f0a7d80d934865.setContent(html_b98262476ac90ad979f6ebc591c574a5);
+            
+        
+
+        poly_line_ac6974298eabcdc8c008994dcf857521.bindPopup(popup_f17cecd3e23b2527a0f0a7d80d934865)
+        ;
+
+        
+    
+    
+            poly_line_ac6974298eabcdc8c008994dcf857521.bindTooltip(
+                `<div>
+                     Route from Ruggles T Stop - Columbus Ave at Melnea Cass Blvd to Roxbury Crossing T Stop - Columbus Ave at Tremont St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_834bab5ec8d44268bf8c0e2cbc75dcd1 = L.polyline(
+                [[42.333293, -71.101246], [42.339202, -71.090511]],
+                {"bubblingMouseEvents": true, "color": "#2499c1ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2499c1ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_af2bb03d9f242ae2904ad98d3ed06ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b310f0289fe3800ebea56136d1b1e12 = $(`<div id="html_2b310f0289fe3800ebea56136d1b1e12" style="width: 100.0%; height: 100.0%;">889 rides</div>`)[0];
+                popup_af2bb03d9f242ae2904ad98d3ed06ed3.setContent(html_2b310f0289fe3800ebea56136d1b1e12);
+            
+        
+
+        poly_line_834bab5ec8d44268bf8c0e2cbc75dcd1.bindPopup(popup_af2bb03d9f242ae2904ad98d3ed06ed3)
+        ;
+
+        
+    
+    
+            poly_line_834bab5ec8d44268bf8c0e2cbc75dcd1.bindTooltip(
+                `<div>
+                     Route from St. Alphonsus St at Tremont St to Forsyth St at Huntington Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1756ad12a3ae6d350e8cd9be3e34c72e = L.polyline(
+                [[42.360859, -71.085519], [42.359573, -71.101295]],
+                {"bubblingMouseEvents": true, "color": "#279cc1ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#279cc1ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_ac89851a88eec4449142bb2989a8fb64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_246e91cd1dd4ee9490d50a0e5d080155 = $(`<div id="html_246e91cd1dd4ee9490d50a0e5d080155" style="width: 100.0%; height: 100.0%;">872 rides</div>`)[0];
+                popup_ac89851a88eec4449142bb2989a8fb64.setContent(html_246e91cd1dd4ee9490d50a0e5d080155);
+            
+        
+
+        poly_line_1756ad12a3ae6d350e8cd9be3e34c72e.bindPopup(popup_ac89851a88eec4449142bb2989a8fb64)
+        ;
+
+        
+    
+    
+            poly_line_1756ad12a3ae6d350e8cd9be3e34c72e.bindTooltip(
+                `<div>
+                     Route from MIT Hayward St at Amherst St to MIT Pacific St at Purrington St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_01e38f92706d61775f1fb050124a4ea4 = L.polyline(
+                [[42.3625, -71.08822], [42.359573, -71.101295]],
+                {"bubblingMouseEvents": true, "color": "#2a9fc2ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a9fc2ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_e015b5044b5d60f897b9bfb2536f494c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11b7c99238dc8d8b284e28fd93f463a5 = $(`<div id="html_11b7c99238dc8d8b284e28fd93f463a5" style="width: 100.0%; height: 100.0%;">859 rides</div>`)[0];
+                popup_e015b5044b5d60f897b9bfb2536f494c.setContent(html_11b7c99238dc8d8b284e28fd93f463a5);
+            
+        
+
+        poly_line_01e38f92706d61775f1fb050124a4ea4.bindPopup(popup_e015b5044b5d60f897b9bfb2536f494c)
+        ;
+
+        
+    
+    
+            poly_line_01e38f92706d61775f1fb050124a4ea4.bindTooltip(
+                `<div>
+                     Route from Ames St at Main St to MIT Pacific St at Purrington St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_10f3f8567f07050867bbd432148e900b = L.polyline(
+                [[42.373268, -71.118579], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#2fa4c2ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2fa4c2ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_b281048320727468143ab3c0a2a1188d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa0899f2079d649993b9ecc9a5465115 = $(`<div id="html_aa0899f2079d649993b9ecc9a5465115" style="width: 100.0%; height: 100.0%;">834 rides</div>`)[0];
+                popup_b281048320727468143ab3c0a2a1188d.setContent(html_aa0899f2079d649993b9ecc9a5465115);
+            
+        
+
+        poly_line_10f3f8567f07050867bbd432148e900b.bindPopup(popup_b281048320727468143ab3c0a2a1188d)
+        ;
+
+        
+    
+    
+            poly_line_10f3f8567f07050867bbd432148e900b.bindTooltip(
+                `<div>
+                     Route from Harvard Square at Mass Ave/ Dunster to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_65f1f9bc9c85281df429b32643fef6c8 = L.polyline(
+                [[42.3581, -71.093198], [42.373268, -71.118579]],
+                {"bubblingMouseEvents": true, "color": "#2fa4c2ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2fa4c2ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_74e26b8a9ff48e11b27866aca463b9d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5662939e026933abd297a051502ddd21 = $(`<div id="html_5662939e026933abd297a051502ddd21" style="width: 100.0%; height: 100.0%;">831 rides</div>`)[0];
+                popup_74e26b8a9ff48e11b27866aca463b9d0.setContent(html_5662939e026933abd297a051502ddd21);
+            
+        
+
+        poly_line_65f1f9bc9c85281df429b32643fef6c8.bindPopup(popup_74e26b8a9ff48e11b27866aca463b9d0)
+        ;
+
+        
+    
+    
+            poly_line_65f1f9bc9c85281df429b32643fef6c8.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to Harvard Square at Mass Ave/ Dunster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b20d9ab95a00127337affe5aa20f1bd9 = L.polyline(
+                [[42.355536, -71.072869], [42.355536, -71.072869]],
+                {"bubblingMouseEvents": true, "color": "#30a5c2ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#30a5c2ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_e1a3580bc67bba5d078840269267725f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e2302f9a948bd149ca3c4e4c5aea24e = $(`<div id="html_3e2302f9a948bd149ca3c4e4c5aea24e" style="width: 100.0%; height: 100.0%;">825 rides</div>`)[0];
+                popup_e1a3580bc67bba5d078840269267725f.setContent(html_3e2302f9a948bd149ca3c4e4c5aea24e);
+            
+        
+
+        poly_line_b20d9ab95a00127337affe5aa20f1bd9.bindPopup(popup_e1a3580bc67bba5d078840269267725f)
+        ;
+
+        
+    
+    
+            poly_line_b20d9ab95a00127337affe5aa20f1bd9.bindTooltip(
+                `<div>
+                     Route from Mugar Way at Beacon St to Mugar Way at Beacon St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_51546cb4698d6265e9153592f778d681 = L.polyline(
+                [[42.333923, -71.104465], [42.339202, -71.090511]],
+                {"bubblingMouseEvents": true, "color": "#33a8c3ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#33a8c3ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_6b51fb761c4ff2b599d47bb5915e5c68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7296196d4c915c2ce9d43ed5c30f890a = $(`<div id="html_7296196d4c915c2ce9d43ed5c30f890a" style="width: 100.0%; height: 100.0%;">814 rides</div>`)[0];
+                popup_6b51fb761c4ff2b599d47bb5915e5c68.setContent(html_7296196d4c915c2ce9d43ed5c30f890a);
+            
+        
+
+        poly_line_51546cb4698d6265e9153592f778d681.bindPopup(popup_6b51fb761c4ff2b599d47bb5915e5c68)
+        ;
+
+        
+    
+    
+            poly_line_51546cb4698d6265e9153592f778d681.bindTooltip(
+                `<div>
+                     Route from One Brigham Circle to Forsyth St at Huntington Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0e07c755d5147c0177227f37b269b8ae = L.polyline(
+                [[42.360859, -71.085519], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#33a8c3ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#33a8c3ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_2d9397500342b71e1b74af42a4cfcd55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3ec52d4846ebcbe92f265177e8637c1 = $(`<div id="html_d3ec52d4846ebcbe92f265177e8637c1" style="width: 100.0%; height: 100.0%;">814 rides</div>`)[0];
+                popup_2d9397500342b71e1b74af42a4cfcd55.setContent(html_d3ec52d4846ebcbe92f265177e8637c1);
+            
+        
+
+        poly_line_0e07c755d5147c0177227f37b269b8ae.bindPopup(popup_2d9397500342b71e1b74af42a4cfcd55)
+        ;
+
+        
+    
+    
+            poly_line_0e07c755d5147c0177227f37b269b8ae.bindTooltip(
+                `<div>
+                     Route from MIT Hayward St at Amherst St to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_db73ca83abb5edfe8eff16586a7bd002 = L.polyline(
+                [[42.3625, -71.08822], [42.355601, -71.103945]],
+                {"bubblingMouseEvents": true, "color": "#35aac3ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#35aac3ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_edf773de44904b3437cf5e9dc183c749 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0802a63bc2cd44bfff471b10059b17fe = $(`<div id="html_0802a63bc2cd44bfff471b10059b17fe" style="width: 100.0%; height: 100.0%;">804 rides</div>`)[0];
+                popup_edf773de44904b3437cf5e9dc183c749.setContent(html_0802a63bc2cd44bfff471b10059b17fe);
+            
+        
+
+        poly_line_db73ca83abb5edfe8eff16586a7bd002.bindPopup(popup_edf773de44904b3437cf5e9dc183c749)
+        ;
+
+        
+    
+    
+            poly_line_db73ca83abb5edfe8eff16586a7bd002.bindTooltip(
+                `<div>
+                     Route from Ames St at Main St to MIT Vassar St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0986ad4db31717cb721cf5eb44011116 = L.polyline(
+                [[42.36507, -71.1031], [42.355601, -71.103945]],
+                {"bubblingMouseEvents": true, "color": "#35aac3ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#35aac3ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_53f96f7f51645fbd00afdd0686138b1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecc764ac26560305695fe343bc57ff88 = $(`<div id="html_ecc764ac26560305695fe343bc57ff88" style="width: 100.0%; height: 100.0%;">802 rides</div>`)[0];
+                popup_53f96f7f51645fbd00afdd0686138b1c.setContent(html_ecc764ac26560305695fe343bc57ff88);
+            
+        
+
+        poly_line_0986ad4db31717cb721cf5eb44011116.bindPopup(popup_53f96f7f51645fbd00afdd0686138b1c)
+        ;
+
+        
+    
+    
+            poly_line_0986ad4db31717cb721cf5eb44011116.bindTooltip(
+                `<div>
+                     Route from Central Square at Mass Ave / Essex St to MIT Vassar St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a744c544e1c34b2a8309d8e58d4bb8b3 = L.polyline(
+                [[42.397828, -71.130516], [42.396969, -71.123024]],
+                {"bubblingMouseEvents": true, "color": "#38adc3ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#38adc3ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_bc16a551bc04cda962a5c66950b9dd76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a037830d1e07b76bea7ca9af18e2875 = $(`<div id="html_4a037830d1e07b76bea7ca9af18e2875" style="width: 100.0%; height: 100.0%;">787 rides</div>`)[0];
+                popup_bc16a551bc04cda962a5c66950b9dd76.setContent(html_4a037830d1e07b76bea7ca9af18e2875);
+            
+        
+
+        poly_line_a744c544e1c34b2a8309d8e58d4bb8b3.bindPopup(popup_bc16a551bc04cda962a5c66950b9dd76)
+        ;
+
+        
+    
+    
+            poly_line_a744c544e1c34b2a8309d8e58d4bb8b3.bindTooltip(
+                `<div>
+                     Route from Linear Park - Mass. Ave. at Cameron Ave.  to Davis Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e3600f20a7dbcfb2c0e73b7c25169616 = L.polyline(
+                [[42.357219, -71.113872], [42.359573, -71.101295]],
+                {"bubblingMouseEvents": true, "color": "#38adc3ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#38adc3ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_d7afbc410d754b762a3d46a7b8eef158 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cff570cfd3a5feb4dc7cf90bc42b228b = $(`<div id="html_cff570cfd3a5feb4dc7cf90bc42b228b" style="width: 100.0%; height: 100.0%;">786 rides</div>`)[0];
+                popup_d7afbc410d754b762a3d46a7b8eef158.setContent(html_cff570cfd3a5feb4dc7cf90bc42b228b);
+            
+        
+
+        poly_line_e3600f20a7dbcfb2c0e73b7c25169616.bindPopup(popup_d7afbc410d754b762a3d46a7b8eef158)
+        ;
+
+        
+    
+    
+            poly_line_e3600f20a7dbcfb2c0e73b7c25169616.bindTooltip(
+                `<div>
+                     Route from Lower Cambridgeport at Magazine St / Riverside Rd to MIT Pacific St at Purrington St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8c113fec6e946603a47c84ef413e6664 = L.polyline(
+                [[42.360542, -71.086698], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#3aafc3ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3aafc3ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_719b4aa2045953c75ea29d49184ef11c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb854890b87e572205bd66c6d88a4a02 = $(`<div id="html_bb854890b87e572205bd66c6d88a4a02" style="width: 100.0%; height: 100.0%;">777 rides</div>`)[0];
+                popup_719b4aa2045953c75ea29d49184ef11c.setContent(html_bb854890b87e572205bd66c6d88a4a02);
+            
+        
+
+        poly_line_8c113fec6e946603a47c84ef413e6664.bindPopup(popup_719b4aa2045953c75ea29d49184ef11c)
+        ;
+
+        
+    
+    
+            poly_line_8c113fec6e946603a47c84ef413e6664.bindTooltip(
+                `<div>
+                     Route from MIT Carleton St at Amherst St to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1aab68f20ab6004a9b034fd9459a3a12 = L.polyline(
+                [[42.396387, -71.120113], [42.392525, -71.105587]],
+                {"bubblingMouseEvents": true, "color": "#3aafc4ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3aafc4ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_b88185dd0ede06eaebf109cfd9b1b1f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d95dd9694464a267d3788d95b22f332 = $(`<div id="html_1d95dd9694464a267d3788d95b22f332" style="width: 100.0%; height: 100.0%;">776 rides</div>`)[0];
+                popup_b88185dd0ede06eaebf109cfd9b1b1f2.setContent(html_1d95dd9694464a267d3788d95b22f332);
+            
+        
+
+        poly_line_1aab68f20ab6004a9b034fd9459a3a12.bindPopup(popup_b88185dd0ede06eaebf109cfd9b1b1f2)
+        ;
+
+        
+    
+    
+            poly_line_1aab68f20ab6004a9b034fd9459a3a12.bindTooltip(
+                `<div>
+                     Route from Grove St at Community Path to Community Path at Lowell St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fdb01d902a502592da9797e673ac1556 = L.polyline(
+                [[42.36507, -71.1031], [42.373268, -71.118579]],
+                {"bubblingMouseEvents": true, "color": "#3fb5c4ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3fb5c4ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_01a058a1cb3c6b1bb4aa87e0be3a2f6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_903c27ace532e8a25aba70c026d55b72 = $(`<div id="html_903c27ace532e8a25aba70c026d55b72" style="width: 100.0%; height: 100.0%;">748 rides</div>`)[0];
+                popup_01a058a1cb3c6b1bb4aa87e0be3a2f6f.setContent(html_903c27ace532e8a25aba70c026d55b72);
+            
+        
+
+        poly_line_fdb01d902a502592da9797e673ac1556.bindPopup(popup_01a058a1cb3c6b1bb4aa87e0be3a2f6f)
+        ;
+
+        
+    
+    
+            poly_line_fdb01d902a502592da9797e673ac1556.bindTooltip(
+                `<div>
+                     Route from Central Square at Mass Ave / Essex St to Harvard Square at Mass Ave/ Dunster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_00ec3ff7ccc14513ec4ccd07977c77c5 = L.polyline(
+                [[42.3581, -71.093198], [42.349244, -71.097282]],
+                {"bubblingMouseEvents": true, "color": "#41b6c4ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#41b6c4ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_9838149f011636c5b641a917a50fadbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18eb8ebb2354dbe82d4869043598c26a = $(`<div id="html_18eb8ebb2354dbe82d4869043598c26a" style="width: 100.0%; height: 100.0%;">742 rides</div>`)[0];
+                popup_9838149f011636c5b641a917a50fadbe.setContent(html_18eb8ebb2354dbe82d4869043598c26a);
+            
+        
+
+        poly_line_00ec3ff7ccc14513ec4ccd07977c77c5.bindPopup(popup_9838149f011636c5b641a917a50fadbe)
+        ;
+
+        
+    
+    
+            poly_line_00ec3ff7ccc14513ec4ccd07977c77c5.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to Deerfield St at Commonwealth Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9c4242c0ae5caa7471ff1449bf3116bc = L.polyline(
+                [[42.349244, -71.097282], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#43b7c4ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#43b7c4ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_608c7784649bf588aea75a58a994f2ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_134f54ff332ef5923a692f87c3ec658a = $(`<div id="html_134f54ff332ef5923a692f87c3ec658a" style="width: 100.0%; height: 100.0%;">736 rides</div>`)[0];
+                popup_608c7784649bf588aea75a58a994f2ad.setContent(html_134f54ff332ef5923a692f87c3ec658a);
+            
+        
+
+        poly_line_9c4242c0ae5caa7471ff1449bf3116bc.bindPopup(popup_608c7784649bf588aea75a58a994f2ad)
+        ;
+
+        
+    
+    
+            poly_line_9c4242c0ae5caa7471ff1449bf3116bc.bindTooltip(
+                `<div>
+                     Route from Deerfield St at Commonwealth Ave to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8010b13def2950464adf477e6e4f0f14 = L.polyline(
+                [[42.3581, -71.093198], [42.3625, -71.08822]],
+                {"bubblingMouseEvents": true, "color": "#43b7c4ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#43b7c4ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_ab016a6785b50d220c5d185668937da4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7e5ce00bd37e0729a97867044739b56 = $(`<div id="html_a7e5ce00bd37e0729a97867044739b56" style="width: 100.0%; height: 100.0%;">735 rides</div>`)[0];
+                popup_ab016a6785b50d220c5d185668937da4.setContent(html_a7e5ce00bd37e0729a97867044739b56);
+            
+        
+
+        poly_line_8010b13def2950464adf477e6e4f0f14.bindPopup(popup_ab016a6785b50d220c5d185668937da4)
+        ;
+
+        
+    
+    
+            poly_line_8010b13def2950464adf477e6e4f0f14.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to Ames St at Main St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d0ec465ce2a5fb9fff16df31bd5b053a = L.polyline(
+                [[42.355601, -71.103945], [42.360542, -71.086698]],
+                {"bubblingMouseEvents": true, "color": "#44b7c4ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#44b7c4ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_3926e6bb271f7293855b3bdaec283b05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc7d3a284a67399e60eea4a89e8685be = $(`<div id="html_fc7d3a284a67399e60eea4a89e8685be" style="width: 100.0%; height: 100.0%;">733 rides</div>`)[0];
+                popup_3926e6bb271f7293855b3bdaec283b05.setContent(html_fc7d3a284a67399e60eea4a89e8685be);
+            
+        
+
+        poly_line_d0ec465ce2a5fb9fff16df31bd5b053a.bindPopup(popup_3926e6bb271f7293855b3bdaec283b05)
+        ;
+
+        
+    
+    
+            poly_line_d0ec465ce2a5fb9fff16df31bd5b053a.bindTooltip(
+                `<div>
+                     Route from MIT Vassar St to MIT Carleton St at Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8955f6eb36692f5c3d2c4201cbdaf8a5 = L.polyline(
+                [[42.355601, -71.103945], [42.360859, -71.085519]],
+                {"bubblingMouseEvents": true, "color": "#45b8c4ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#45b8c4ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_f4a267a885fedccb585b841e64711db3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfdc335438fc5b37a9aaff21bf9ecea9 = $(`<div id="html_bfdc335438fc5b37a9aaff21bf9ecea9" style="width: 100.0%; height: 100.0%;">729 rides</div>`)[0];
+                popup_f4a267a885fedccb585b841e64711db3.setContent(html_bfdc335438fc5b37a9aaff21bf9ecea9);
+            
+        
+
+        poly_line_8955f6eb36692f5c3d2c4201cbdaf8a5.bindPopup(popup_f4a267a885fedccb585b841e64711db3)
+        ;
+
+        
+    
+    
+            poly_line_8955f6eb36692f5c3d2c4201cbdaf8a5.bindTooltip(
+                `<div>
+                     Route from MIT Vassar St to MIT Hayward St at Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6e42206c50a91e925e9842f5c06e078c = L.polyline(
+                [[42.361358, -71.096703], [42.36507, -71.1031]],
+                {"bubblingMouseEvents": true, "color": "#45b8c4ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#45b8c4ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_6306ea1198f90cdfddd73b8dd0bb6f91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6295e8f7a7d779fb1583b8b3db6a5f19 = $(`<div id="html_6295e8f7a7d779fb1583b8b3db6a5f19" style="width: 100.0%; height: 100.0%;">729 rides</div>`)[0];
+                popup_6306ea1198f90cdfddd73b8dd0bb6f91.setContent(html_6295e8f7a7d779fb1583b8b3db6a5f19);
+            
+        
+
+        poly_line_6e42206c50a91e925e9842f5c06e078c.bindPopup(popup_6306ea1198f90cdfddd73b8dd0bb6f91)
+        ;
+
+        
+    
+    
+            poly_line_6e42206c50a91e925e9842f5c06e078c.bindTooltip(
+                `<div>
+                     Route from Mass Ave at Albany St to Central Square at Mass Ave / Essex St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_72aed1c95778094aede8b8e013805740 = L.polyline(
+                [[42.359573, -71.101295], [42.360542, -71.086698]],
+                {"bubblingMouseEvents": true, "color": "#45b8c4ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#45b8c4ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_d278899d196e8b678b15d5dc967f8a79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f58a8168fef96f02c25a14aa84170fb = $(`<div id="html_6f58a8168fef96f02c25a14aa84170fb" style="width: 100.0%; height: 100.0%;">728 rides</div>`)[0];
+                popup_d278899d196e8b678b15d5dc967f8a79.setContent(html_6f58a8168fef96f02c25a14aa84170fb);
+            
+        
+
+        poly_line_72aed1c95778094aede8b8e013805740.bindPopup(popup_d278899d196e8b678b15d5dc967f8a79)
+        ;
+
+        
+    
+    
+            poly_line_72aed1c95778094aede8b8e013805740.bindTooltip(
+                `<div>
+                     Route from MIT Pacific St at Purrington St to MIT Carleton St at Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b843cd1cbbf4df0c7bd6d38ed12e42ba = L.polyline(
+                [[42.396969, -71.123024], [42.397828, -71.130516]],
+                {"bubblingMouseEvents": true, "color": "#46b8c3ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#46b8c3ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_126b5bd40803e07aa5290229ea5532fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1c46bac5dc12946f1175edcdc6b02a0 = $(`<div id="html_a1c46bac5dc12946f1175edcdc6b02a0" style="width: 100.0%; height: 100.0%;">725 rides</div>`)[0];
+                popup_126b5bd40803e07aa5290229ea5532fd.setContent(html_a1c46bac5dc12946f1175edcdc6b02a0);
+            
+        
+
+        poly_line_b843cd1cbbf4df0c7bd6d38ed12e42ba.bindPopup(popup_126b5bd40803e07aa5290229ea5532fd)
+        ;
+
+        
+    
+    
+            poly_line_b843cd1cbbf4df0c7bd6d38ed12e42ba.bindTooltip(
+                `<div>
+                     Route from Davis Square to Linear Park - Mass. Ave. at Cameron Ave. 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e04a6058f168e759501795e1b1b215cd = L.polyline(
+                [[42.349496, -71.100576], [42.351692, -71.119035]],
+                {"bubblingMouseEvents": true, "color": "#48b9c3ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#48b9c3ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_a8bc2a041a2e9a79ec4978202941373c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c854b6c4ac6bd0e876d72f1ce2ec678 = $(`<div id="html_3c854b6c4ac6bd0e876d72f1ce2ec678" style="width: 100.0%; height: 100.0%;">720 rides</div>`)[0];
+                popup_a8bc2a041a2e9a79ec4978202941373c.setContent(html_3c854b6c4ac6bd0e876d72f1ce2ec678);
+            
+        
+
+        poly_line_e04a6058f168e759501795e1b1b215cd.bindPopup(popup_a8bc2a041a2e9a79ec4978202941373c)
+        ;
+
+        
+    
+    
+            poly_line_e04a6058f168e759501795e1b1b215cd.bindTooltip(
+                `<div>
+                     Route from Silber Way to Commonwealth Ave at Agganis Way
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1b4daa6fa3049b6dc2a454f10dd71485 = L.polyline(
+                [[42.369239, -71.11687], [42.369239, -71.11687]],
+                {"bubblingMouseEvents": true, "color": "#4dbbc2ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#4dbbc2ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_a5cf9535bf84a86c1b7fa259906e2831 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25b3d60f724e09f187ea82bf3c3275d2 = $(`<div id="html_25b3d60f724e09f187ea82bf3c3275d2" style="width: 100.0%; height: 100.0%;">704 rides</div>`)[0];
+                popup_a5cf9535bf84a86c1b7fa259906e2831.setContent(html_25b3d60f724e09f187ea82bf3c3275d2);
+            
+        
+
+        poly_line_1b4daa6fa3049b6dc2a454f10dd71485.bindPopup(popup_a5cf9535bf84a86c1b7fa259906e2831)
+        ;
+
+        
+    
+    
+            poly_line_1b4daa6fa3049b6dc2a454f10dd71485.bindTooltip(
+                `<div>
+                     Route from Harvard University River Houses at DeWolfe St / Cowperthwaite St to Harvard University River Houses at DeWolfe St / Cowperthwaite St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_53847a49e0355bd0c1d794bc8de9f7bb = L.polyline(
+                [[42.360793, -71.07119], [42.360793, -71.07119]],
+                {"bubblingMouseEvents": true, "color": "#4ebbc2ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#4ebbc2ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_97e3c8bcf8cfd0ffd15ea43b1ce630e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a94ea0ec261a8b39feab7f0282fb2eae = $(`<div id="html_a94ea0ec261a8b39feab7f0282fb2eae" style="width: 100.0%; height: 100.0%;">703 rides</div>`)[0];
+                popup_97e3c8bcf8cfd0ffd15ea43b1ce630e1.setContent(html_a94ea0ec261a8b39feab7f0282fb2eae);
+            
+        
+
+        poly_line_53847a49e0355bd0c1d794bc8de9f7bb.bindPopup(popup_97e3c8bcf8cfd0ffd15ea43b1ce630e1)
+        ;
+
+        
+    
+    
+            poly_line_53847a49e0355bd0c1d794bc8de9f7bb.bindTooltip(
+                `<div>
+                     Route from Charles Circle - Charles St at Cambridge St to Charles Circle - Charles St at Cambridge St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_806bb8943b03a242895c68da3fe6c2a0 = L.polyline(
+                [[42.3581, -71.093198], [42.359573, -71.101295]],
+                {"bubblingMouseEvents": true, "color": "#54bec1ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#54bec1ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_1df684658b70552a7c77e8df3ae07698 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1aacdb507ce20927268f46c4988c012 = $(`<div id="html_f1aacdb507ce20927268f46c4988c012" style="width: 100.0%; height: 100.0%;">683 rides</div>`)[0];
+                popup_1df684658b70552a7c77e8df3ae07698.setContent(html_f1aacdb507ce20927268f46c4988c012);
+            
+        
+
+        poly_line_806bb8943b03a242895c68da3fe6c2a0.bindPopup(popup_1df684658b70552a7c77e8df3ae07698)
+        ;
+
+        
+    
+    
+            poly_line_806bb8943b03a242895c68da3fe6c2a0.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to MIT Pacific St at Purrington St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a625259a8f4363e4b3a29535d61fff9c = L.polyline(
+                [[42.392525, -71.105587], [42.396387, -71.120113]],
+                {"bubblingMouseEvents": true, "color": "#55bec1ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#55bec1ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_2d5a0139fdbdf9abb09860d569ef0f07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1767a2532080b25ecf376252d60f4e17 = $(`<div id="html_1767a2532080b25ecf376252d60f4e17" style="width: 100.0%; height: 100.0%;">682 rides</div>`)[0];
+                popup_2d5a0139fdbdf9abb09860d569ef0f07.setContent(html_1767a2532080b25ecf376252d60f4e17);
+            
+        
+
+        poly_line_a625259a8f4363e4b3a29535d61fff9c.bindPopup(popup_2d5a0139fdbdf9abb09860d569ef0f07)
+        ;
+
+        
+    
+    
+            poly_line_a625259a8f4363e4b3a29535d61fff9c.bindTooltip(
+                `<div>
+                     Route from Community Path at Lowell St to Grove St at Community Path
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_528334fc6294712aa87da250a711e00b = L.polyline(
+                [[42.396387, -71.120113], [42.394072, -71.111337]],
+                {"bubblingMouseEvents": true, "color": "#5bc0c0ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#5bc0c0ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_523968341f9a0d72cedc760a38194f02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bde2bd6abef91337fa7a1969bf5d296a = $(`<div id="html_bde2bd6abef91337fa7a1969bf5d296a" style="width: 100.0%; height: 100.0%;">664 rides</div>`)[0];
+                popup_523968341f9a0d72cedc760a38194f02.setContent(html_bde2bd6abef91337fa7a1969bf5d296a);
+            
+        
+
+        poly_line_528334fc6294712aa87da250a711e00b.bindPopup(popup_523968341f9a0d72cedc760a38194f02)
+        ;
+
+        
+    
+    
+            poly_line_528334fc6294712aa87da250a711e00b.bindTooltip(
+                `<div>
+                     Route from Grove St at Community Path to Community Path at Cedar Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c51d64a786306aeb5ee9b2e8506f5622 = L.polyline(
+                [[42.339202, -71.090511], [42.334629, -71.104079]],
+                {"bubblingMouseEvents": true, "color": "#5cc0c0ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#5cc0c0ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_1c4200ffd82c7dcf304cec1bdeec604c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a8008c6c75bbfb30942105ec1044f14 = $(`<div id="html_9a8008c6c75bbfb30942105ec1044f14" style="width: 100.0%; height: 100.0%;">661 rides</div>`)[0];
+                popup_1c4200ffd82c7dcf304cec1bdeec604c.setContent(html_9a8008c6c75bbfb30942105ec1044f14);
+            
+        
+
+        poly_line_c51d64a786306aeb5ee9b2e8506f5622.bindPopup(popup_1c4200ffd82c7dcf304cec1bdeec604c)
+        ;
+
+        
+    
+    
+            poly_line_c51d64a786306aeb5ee9b2e8506f5622.bindTooltip(
+                `<div>
+                     Route from Forsyth St at Huntington Ave to Brigham Circle - Francis St at Huntington Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ad11ef5bb57df83cf0ff3089d8fc5e99 = L.polyline(
+                [[42.349609, -71.103915], [42.351692, -71.119035]],
+                {"bubblingMouseEvents": true, "color": "#62c3bfff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#62c3bfff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_67ce55a95747fbb7864afe57aa8a4c6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6fde55f44ae6f77930f0dcfa7f1cee2 = $(`<div id="html_c6fde55f44ae6f77930f0dcfa7f1cee2" style="width: 100.0%; height: 100.0%;">642 rides</div>`)[0];
+                popup_67ce55a95747fbb7864afe57aa8a4c6c.setContent(html_c6fde55f44ae6f77930f0dcfa7f1cee2);
+            
+        
+
+        poly_line_ad11ef5bb57df83cf0ff3089d8fc5e99.bindPopup(popup_67ce55a95747fbb7864afe57aa8a4c6c)
+        ;
+
+        
+    
+    
+            poly_line_ad11ef5bb57df83cf0ff3089d8fc5e99.bindTooltip(
+                `<div>
+                     Route from 700 Commonwealth Ave. to Commonwealth Ave at Agganis Way
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8008dd2631fdfee2a7be30c3b8db57a5 = L.polyline(
+                [[42.3581, -71.093198], [42.360859, -71.085519]],
+                {"bubblingMouseEvents": true, "color": "#62c3bfff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#62c3bfff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_a20e1461f03b8408ef77e19b5e5d5b55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51c95108d3aea0aa589b2e9cb3848e42 = $(`<div id="html_51c95108d3aea0aa589b2e9cb3848e42" style="width: 100.0%; height: 100.0%;">641 rides</div>`)[0];
+                popup_a20e1461f03b8408ef77e19b5e5d5b55.setContent(html_51c95108d3aea0aa589b2e9cb3848e42);
+            
+        
+
+        poly_line_8008dd2631fdfee2a7be30c3b8db57a5.bindPopup(popup_a20e1461f03b8408ef77e19b5e5d5b55)
+        ;
+
+        
+    
+    
+            poly_line_8008dd2631fdfee2a7be30c3b8db57a5.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to MIT Hayward St at Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_22a60a4dbb0c2d1bc37cbe21d74ecf88 = L.polyline(
+                [[42.355601, -71.103945], [42.36507, -71.1031]],
+                {"bubblingMouseEvents": true, "color": "#63c3bfff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#63c3bfff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_aed618d433f666f8732b7d69e001bc6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a972fd7ffde44069cb438954c01dda9b = $(`<div id="html_a972fd7ffde44069cb438954c01dda9b" style="width: 100.0%; height: 100.0%;">639 rides</div>`)[0];
+                popup_aed618d433f666f8732b7d69e001bc6b.setContent(html_a972fd7ffde44069cb438954c01dda9b);
+            
+        
+
+        poly_line_22a60a4dbb0c2d1bc37cbe21d74ecf88.bindPopup(popup_aed618d433f666f8732b7d69e001bc6b)
+        ;
+
+        
+    
+    
+            poly_line_22a60a4dbb0c2d1bc37cbe21d74ecf88.bindTooltip(
+                `<div>
+                     Route from MIT Vassar St to Central Square at Mass Ave / Essex St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_60df30eebe64ba368a5f7bb47b0ec48c = L.polyline(
+                [[42.360859, -71.085519], [42.355601, -71.103945]],
+                {"bubblingMouseEvents": true, "color": "#64c3bfff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#64c3bfff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_ae58892833e254a520d52a42df7b34f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe2f1e2f5b1a246a2e08eee70f94422c = $(`<div id="html_fe2f1e2f5b1a246a2e08eee70f94422c" style="width: 100.0%; height: 100.0%;">638 rides</div>`)[0];
+                popup_ae58892833e254a520d52a42df7b34f9.setContent(html_fe2f1e2f5b1a246a2e08eee70f94422c);
+            
+        
+
+        poly_line_60df30eebe64ba368a5f7bb47b0ec48c.bindPopup(popup_ae58892833e254a520d52a42df7b34f9)
+        ;
+
+        
+    
+    
+            poly_line_60df30eebe64ba368a5f7bb47b0ec48c.bindTooltip(
+                `<div>
+                     Route from MIT Hayward St at Amherst St to MIT Vassar St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f550a577f9ebf1485c622a7aac14d0f2 = L.polyline(
+                [[42.3581, -71.093198], [42.360542, -71.086698]],
+                {"bubblingMouseEvents": true, "color": "#64c3bfff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#64c3bfff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_8f310b8285d080ac049e6c469486a397 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b39d832020db5ca2f4ff9a1e17636652 = $(`<div id="html_b39d832020db5ca2f4ff9a1e17636652" style="width: 100.0%; height: 100.0%;">637 rides</div>`)[0];
+                popup_8f310b8285d080ac049e6c469486a397.setContent(html_b39d832020db5ca2f4ff9a1e17636652);
+            
+        
+
+        poly_line_f550a577f9ebf1485c622a7aac14d0f2.bindPopup(popup_8f310b8285d080ac049e6c469486a397)
+        ;
+
+        
+    
+    
+            poly_line_f550a577f9ebf1485c622a7aac14d0f2.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to MIT Carleton St at Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e5d91b280df937f97a11e4d264bbd36b = L.polyline(
+                [[42.339202, -71.090511], [42.331184, -71.095171]],
+                {"bubblingMouseEvents": true, "color": "#66c4bfff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#66c4bfff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_273ca4f1fe9003b76a9d90552c321731 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e40c40ff701cec3da50a224620da5502 = $(`<div id="html_e40c40ff701cec3da50a224620da5502" style="width: 100.0%; height: 100.0%;">630 rides</div>`)[0];
+                popup_273ca4f1fe9003b76a9d90552c321731.setContent(html_e40c40ff701cec3da50a224620da5502);
+            
+        
+
+        poly_line_e5d91b280df937f97a11e4d264bbd36b.bindPopup(popup_273ca4f1fe9003b76a9d90552c321731)
+        ;
+
+        
+    
+    
+            poly_line_e5d91b280df937f97a11e4d264bbd36b.bindTooltip(
+                `<div>
+                     Route from Forsyth St at Huntington Ave to Roxbury Crossing T Stop - Columbus Ave at Tremont St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_44460cac5c7dcd9545ac2ade8fcb0c8b = L.polyline(
+                [[42.373268, -71.118579], [42.36507, -71.1031]],
+                {"bubblingMouseEvents": true, "color": "#67c4bfff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#67c4bfff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_13e998650f5cbbf7512b8e19335e3135 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fd75ae9bfa14100662df7c5ce6a0e6d = $(`<div id="html_0fd75ae9bfa14100662df7c5ce6a0e6d" style="width: 100.0%; height: 100.0%;">629 rides</div>`)[0];
+                popup_13e998650f5cbbf7512b8e19335e3135.setContent(html_0fd75ae9bfa14100662df7c5ce6a0e6d);
+            
+        
+
+        poly_line_44460cac5c7dcd9545ac2ade8fcb0c8b.bindPopup(popup_13e998650f5cbbf7512b8e19335e3135)
+        ;
+
+        
+    
+    
+            poly_line_44460cac5c7dcd9545ac2ade8fcb0c8b.bindTooltip(
+                `<div>
+                     Route from Harvard Square at Mass Ave/ Dunster to Central Square at Mass Ave / Essex St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6bb4e9ae18f7a2b62bd0b2b98805f5a6 = L.polyline(
+                [[42.3625, -71.08822], [42.36507, -71.1031]],
+                {"bubblingMouseEvents": true, "color": "#68c5bfff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#68c5bfff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_7bc92d7ca20a155a3727a6c9a5186333 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9319c5a33911e4b6812606afa19dc7b = $(`<div id="html_b9319c5a33911e4b6812606afa19dc7b" style="width: 100.0%; height: 100.0%;">624 rides</div>`)[0];
+                popup_7bc92d7ca20a155a3727a6c9a5186333.setContent(html_b9319c5a33911e4b6812606afa19dc7b);
+            
+        
+
+        poly_line_6bb4e9ae18f7a2b62bd0b2b98805f5a6.bindPopup(popup_7bc92d7ca20a155a3727a6c9a5186333)
+        ;
+
+        
+    
+    
+            poly_line_6bb4e9ae18f7a2b62bd0b2b98805f5a6.bindTooltip(
+                `<div>
+                     Route from Ames St at Main St to Central Square at Mass Ave / Essex St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_869a65a41308eaef90383b84c48da045 = L.polyline(
+                [[42.3581, -71.093198], [42.347406, -71.086784]],
+                {"bubblingMouseEvents": true, "color": "#6ac6beff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#6ac6beff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_4ad543895cb275da3f1fc4905838cc51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd9b215ca13be457fa3aa92161d22146 = $(`<div id="html_cd9b215ca13be457fa3aa92161d22146" style="width: 100.0%; height: 100.0%;">618 rides</div>`)[0];
+                popup_4ad543895cb275da3f1fc4905838cc51.setContent(html_cd9b215ca13be457fa3aa92161d22146);
+            
+        
+
+        poly_line_869a65a41308eaef90383b84c48da045.bindPopup(popup_4ad543895cb275da3f1fc4905838cc51)
+        ;
+
+        
+    
+    
+            poly_line_869a65a41308eaef90383b84c48da045.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to Boylston St at Massachusetts Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b4209f3c23df14e9512ae4120a5dd3ef = L.polyline(
+                [[42.373268, -71.118579], [42.373268, -71.118579]],
+                {"bubblingMouseEvents": true, "color": "#6bc6beff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#6bc6beff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_44508f7fff066ec885aed167d6cf1c82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fde7a62d5d760e3f554acf7d4f76b316 = $(`<div id="html_fde7a62d5d760e3f554acf7d4f76b316" style="width: 100.0%; height: 100.0%;">616 rides</div>`)[0];
+                popup_44508f7fff066ec885aed167d6cf1c82.setContent(html_fde7a62d5d760e3f554acf7d4f76b316);
+            
+        
+
+        poly_line_b4209f3c23df14e9512ae4120a5dd3ef.bindPopup(popup_44508f7fff066ec885aed167d6cf1c82)
+        ;
+
+        
+    
+    
+            poly_line_b4209f3c23df14e9512ae4120a5dd3ef.bindTooltip(
+                `<div>
+                     Route from Harvard Square at Mass Ave/ Dunster to Harvard Square at Mass Ave/ Dunster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_481115bbc37c12f5221b6add511421a9 = L.polyline(
+                [[42.336448, -71.023739], [42.336448, -71.023739]],
+                {"bubblingMouseEvents": true, "color": "#6dc7beff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#6dc7beff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_91f0414d07b09a10040ed6064a8cd419 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13e2d54ab1195e931c0a3a6b60b36cd3 = $(`<div id="html_13e2d54ab1195e931c0a3a6b60b36cd3" style="width: 100.0%; height: 100.0%;">610 rides</div>`)[0];
+                popup_91f0414d07b09a10040ed6064a8cd419.setContent(html_13e2d54ab1195e931c0a3a6b60b36cd3);
+            
+        
+
+        poly_line_481115bbc37c12f5221b6add511421a9.bindPopup(popup_91f0414d07b09a10040ed6064a8cd419)
+        ;
+
+        
+    
+    
+            poly_line_481115bbc37c12f5221b6add511421a9.bindTooltip(
+                `<div>
+                     Route from Murphy Skating Rink - 1880 Day Blvd to Murphy Skating Rink - 1880 Day Blvd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_14cd1257ac64998177cd9ba5f15204a8 = L.polyline(
+                [[42.373268, -71.118579], [42.369239, -71.11687]],
+                {"bubblingMouseEvents": true, "color": "#76cabcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#76cabcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_4c6bf4ffcc169541fc03eb2d7689982d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94cab9edf04e286a5eab3583d2f49ce3 = $(`<div id="html_94cab9edf04e286a5eab3583d2f49ce3" style="width: 100.0%; height: 100.0%;">582 rides</div>`)[0];
+                popup_4c6bf4ffcc169541fc03eb2d7689982d.setContent(html_94cab9edf04e286a5eab3583d2f49ce3);
+            
+        
+
+        poly_line_14cd1257ac64998177cd9ba5f15204a8.bindPopup(popup_4c6bf4ffcc169541fc03eb2d7689982d)
+        ;
+
+        
+    
+    
+            poly_line_14cd1257ac64998177cd9ba5f15204a8.bindTooltip(
+                `<div>
+                     Route from Harvard Square at Mass Ave/ Dunster to Harvard University River Houses at DeWolfe St / Cowperthwaite St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fad4f7da43c21ac6daa629b347c94dbf = L.polyline(
+                [[42.360542, -71.086698], [42.359573, -71.101295]],
+                {"bubblingMouseEvents": true, "color": "#77cabcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#77cabcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_ce37b769ced7a7bed105eac497bb86bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a71ec5e5a228f10b8a260eed051ec066 = $(`<div id="html_a71ec5e5a228f10b8a260eed051ec066" style="width: 100.0%; height: 100.0%;">580 rides</div>`)[0];
+                popup_ce37b769ced7a7bed105eac497bb86bb.setContent(html_a71ec5e5a228f10b8a260eed051ec066);
+            
+        
+
+        poly_line_fad4f7da43c21ac6daa629b347c94dbf.bindPopup(popup_ce37b769ced7a7bed105eac497bb86bb)
+        ;
+
+        
+    
+    
+            poly_line_fad4f7da43c21ac6daa629b347c94dbf.bindTooltip(
+                `<div>
+                     Route from MIT Carleton St at Amherst St to MIT Pacific St at Purrington St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b0a7dee9b612fc53ede2a581edb4395b = L.polyline(
+                [[42.350406, -71.108279], [42.351692, -71.119035]],
+                {"bubblingMouseEvents": true, "color": "#78cbbcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#78cbbcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_e1dfba97d9cb02ed4eea3ff19df71ccc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3abfb38a591d7d5451e6fda01972b4db = $(`<div id="html_3abfb38a591d7d5451e6fda01972b4db" style="width: 100.0%; height: 100.0%;">578 rides</div>`)[0];
+                popup_e1dfba97d9cb02ed4eea3ff19df71ccc.setContent(html_3abfb38a591d7d5451e6fda01972b4db);
+            
+        
+
+        poly_line_b0a7dee9b612fc53ede2a581edb4395b.bindPopup(popup_e1dfba97d9cb02ed4eea3ff19df71ccc)
+        ;
+
+        
+    
+    
+            poly_line_b0a7dee9b612fc53ede2a581edb4395b.bindTooltip(
+                `<div>
+                     Route from B.U. Central - 725 Comm. Ave. to Commonwealth Ave at Agganis Way
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f1bfccae0fe370a694c701bf568a7ba0 = L.polyline(
+                [[42.366426, -71.105495], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#79cbbcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#79cbbcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_d9c253ecb47181199a8d478427a764e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1aa0d1e715bcd3da67b9e65a721df8cf = $(`<div id="html_1aa0d1e715bcd3da67b9e65a721df8cf" style="width: 100.0%; height: 100.0%;">575 rides</div>`)[0];
+                popup_d9c253ecb47181199a8d478427a764e8.setContent(html_1aa0d1e715bcd3da67b9e65a721df8cf);
+            
+        
+
+        poly_line_f1bfccae0fe370a694c701bf568a7ba0.bindPopup(popup_d9c253ecb47181199a8d478427a764e8)
+        ;
+
+        
+    
+    
+            poly_line_f1bfccae0fe370a694c701bf568a7ba0.bindTooltip(
+                `<div>
+                     Route from Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f6fe8eb3f5d3c6bf1d6a3e493c0dd038 = L.polyline(
+                [[42.351692, -71.119035], [42.349496, -71.100576]],
+                {"bubblingMouseEvents": true, "color": "#79cbbcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#79cbbcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_237f757735f9ec2439b3a0b1cc739c40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63efd68cd9487fbf8da402fee68cbcdb = $(`<div id="html_63efd68cd9487fbf8da402fee68cbcdb" style="width: 100.0%; height: 100.0%;">574 rides</div>`)[0];
+                popup_237f757735f9ec2439b3a0b1cc739c40.setContent(html_63efd68cd9487fbf8da402fee68cbcdb);
+            
+        
+
+        poly_line_f6fe8eb3f5d3c6bf1d6a3e493c0dd038.bindPopup(popup_237f757735f9ec2439b3a0b1cc739c40)
+        ;
+
+        
+    
+    
+            poly_line_f6fe8eb3f5d3c6bf1d6a3e493c0dd038.bindTooltip(
+                `<div>
+                     Route from Commonwealth Ave at Agganis Way to Silber Way
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_61fc065a980616eb9acefb36c46f462a = L.polyline(
+                [[42.36507, -71.1031], [42.368952, -71.109988]],
+                {"bubblingMouseEvents": true, "color": "#79cbbcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#79cbbcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_db6cfb8793911682282309b3265c00c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b42818a6af889934b84cefcb37cfcef = $(`<div id="html_0b42818a6af889934b84cefcb37cfcef" style="width: 100.0%; height: 100.0%;">573 rides</div>`)[0];
+                popup_db6cfb8793911682282309b3265c00c6.setContent(html_0b42818a6af889934b84cefcb37cfcef);
+            
+        
+
+        poly_line_61fc065a980616eb9acefb36c46f462a.bindPopup(popup_db6cfb8793911682282309b3265c00c6)
+        ;
+
+        
+    
+    
+            poly_line_61fc065a980616eb9acefb36c46f462a.bindTooltip(
+                `<div>
+                     Route from Central Square at Mass Ave / Essex St to 955 Mass Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_34f24c1903eecdfd7870e2d3f28a8bd1 = L.polyline(
+                [[42.359573, -71.101295], [42.357219, -71.113872]],
+                {"bubblingMouseEvents": true, "color": "#79cbbcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#79cbbcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_ed9fee237d355fc5a2b30f944b6d6c76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a6949d9132b996b70c03b870f5bdca4 = $(`<div id="html_5a6949d9132b996b70c03b870f5bdca4" style="width: 100.0%; height: 100.0%;">573 rides</div>`)[0];
+                popup_ed9fee237d355fc5a2b30f944b6d6c76.setContent(html_5a6949d9132b996b70c03b870f5bdca4);
+            
+        
+
+        poly_line_34f24c1903eecdfd7870e2d3f28a8bd1.bindPopup(popup_ed9fee237d355fc5a2b30f944b6d6c76)
+        ;
+
+        
+    
+    
+            poly_line_34f24c1903eecdfd7870e2d3f28a8bd1.bindTooltip(
+                `<div>
+                     Route from MIT Pacific St at Purrington St to Lower Cambridgeport at Magazine St / Riverside Rd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bb9fa7e197663445debf0d34d451a774 = L.polyline(
+                [[42.394072, -71.111337], [42.396387, -71.120113]],
+                {"bubblingMouseEvents": true, "color": "#79cbbcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#79cbbcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_17c1d4a90d5dc3a045d2eb5b81230183 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1212ba56da6cd8d3ad534fd57f5e41f2 = $(`<div id="html_1212ba56da6cd8d3ad534fd57f5e41f2" style="width: 100.0%; height: 100.0%;">573 rides</div>`)[0];
+                popup_17c1d4a90d5dc3a045d2eb5b81230183.setContent(html_1212ba56da6cd8d3ad534fd57f5e41f2);
+            
+        
+
+        poly_line_bb9fa7e197663445debf0d34d451a774.bindPopup(popup_17c1d4a90d5dc3a045d2eb5b81230183)
+        ;
+
+        
+    
+    
+            poly_line_bb9fa7e197663445debf0d34d451a774.bindTooltip(
+                `<div>
+                     Route from Community Path at Cedar Street to Grove St at Community Path
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7b2ec2ae807e58b7501cdd7acacbcb18 = L.polyline(
+                [[42.339202, -71.090511], [42.333293, -71.101246]],
+                {"bubblingMouseEvents": true, "color": "#7accbcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#7accbcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_cea90650fc43d4834ce67ded3829bfe9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66eb9d9d24b894c99a7bce609b1e66d4 = $(`<div id="html_66eb9d9d24b894c99a7bce609b1e66d4" style="width: 100.0%; height: 100.0%;">570 rides</div>`)[0];
+                popup_cea90650fc43d4834ce67ded3829bfe9.setContent(html_66eb9d9d24b894c99a7bce609b1e66d4);
+            
+        
+
+        poly_line_7b2ec2ae807e58b7501cdd7acacbcb18.bindPopup(popup_cea90650fc43d4834ce67ded3829bfe9)
+        ;
+
+        
+    
+    
+            poly_line_7b2ec2ae807e58b7501cdd7acacbcb18.bindTooltip(
+                `<div>
+                     Route from Forsyth St at Huntington Ave to St. Alphonsus St at Tremont St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ed2456c04d093cac1c14cb3307a623b7 = L.polyline(
+                [[42.357219, -71.113872], [42.355601, -71.103945]],
+                {"bubblingMouseEvents": true, "color": "#7bccbcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#7bccbcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_882eb6271d2d2b36469a92112242aa50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99ff6e241b05215e4b69fbd66681fd8f = $(`<div id="html_99ff6e241b05215e4b69fbd66681fd8f" style="width: 100.0%; height: 100.0%;">568 rides</div>`)[0];
+                popup_882eb6271d2d2b36469a92112242aa50.setContent(html_99ff6e241b05215e4b69fbd66681fd8f);
+            
+        
+
+        poly_line_ed2456c04d093cac1c14cb3307a623b7.bindPopup(popup_882eb6271d2d2b36469a92112242aa50)
+        ;
+
+        
+    
+    
+            poly_line_ed2456c04d093cac1c14cb3307a623b7.bindTooltip(
+                `<div>
+                     Route from Lower Cambridgeport at Magazine St / Riverside Rd to MIT Vassar St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ef27c787578492796d8023ed9ac0a608 = L.polyline(
+                [[42.359573, -71.101295], [42.359573, -71.101295]],
+                {"bubblingMouseEvents": true, "color": "#7cccbcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#7cccbcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_2c9b4e3115092e618b9ee1ad4b2272ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7e6c158f8048bcbb4dcd425a9d7a710 = $(`<div id="html_f7e6c158f8048bcbb4dcd425a9d7a710" style="width: 100.0%; height: 100.0%;">566 rides</div>`)[0];
+                popup_2c9b4e3115092e618b9ee1ad4b2272ff.setContent(html_f7e6c158f8048bcbb4dcd425a9d7a710);
+            
+        
+
+        poly_line_ef27c787578492796d8023ed9ac0a608.bindPopup(popup_2c9b4e3115092e618b9ee1ad4b2272ff)
+        ;
+
+        
+    
+    
+            poly_line_ef27c787578492796d8023ed9ac0a608.bindTooltip(
+                `<div>
+                     Route from MIT Pacific St at Purrington St to MIT Pacific St at Purrington St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a84fc7b8ed021d91c0c019bbe0379de2 = L.polyline(
+                [[42.343666, -71.085824], [42.343666, -71.085824]],
+                {"bubblingMouseEvents": true, "color": "#7dccbcff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#7dccbcff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_817df81b5ee993b3b0c5b0416a079307 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ec99f20422f76438870001cc858e735 = $(`<div id="html_6ec99f20422f76438870001cc858e735" style="width: 100.0%; height: 100.0%;">563 rides</div>`)[0];
+                popup_817df81b5ee993b3b0c5b0416a079307.setContent(html_6ec99f20422f76438870001cc858e735);
+            
+        
+
+        poly_line_a84fc7b8ed021d91c0c019bbe0379de2.bindPopup(popup_817df81b5ee993b3b0c5b0416a079307)
+        ;
+
+        
+    
+    
+            poly_line_a84fc7b8ed021d91c0c019bbe0379de2.bindTooltip(
+                `<div>
+                     Route from Christian Science Plaza - Massachusetts Ave at Westland Ave to Christian Science Plaza - Massachusetts Ave at Westland Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3df7ff43725569af0d764b1c8a811148 = L.polyline(
+                [[42.351692, -71.119035], [42.352261, -71.123831]],
+                {"bubblingMouseEvents": true, "color": "#7ecdbbff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#7ecdbbff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_7bc568d65b3cba4bbcfdd5f5dcfff5e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d79bd958f1a3805062f2857488f390e = $(`<div id="html_2d79bd958f1a3805062f2857488f390e" style="width: 100.0%; height: 100.0%;">558 rides</div>`)[0];
+                popup_7bc568d65b3cba4bbcfdd5f5dcfff5e3.setContent(html_2d79bd958f1a3805062f2857488f390e);
+            
+        
+
+        poly_line_3df7ff43725569af0d764b1c8a811148.bindPopup(popup_7bc568d65b3cba4bbcfdd5f5dcfff5e3)
+        ;
+
+        
+    
+    
+            poly_line_3df7ff43725569af0d764b1c8a811148.bindTooltip(
+                `<div>
+                     Route from Commonwealth Ave at Agganis Way to Packard's Corner - Commonwealth Ave at Brighton Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_974019b8ba7c5fe5b1c00faecc3913f8 = L.polyline(
+                [[42.355601, -71.103945], [42.355601, -71.103945]],
+                {"bubblingMouseEvents": true, "color": "#86d0bbff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#86d0bbff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_209fee2839a288ede40b3c1f2a2baf43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79f307c4cfb32df91238dd0c918042ea = $(`<div id="html_79f307c4cfb32df91238dd0c918042ea" style="width: 100.0%; height: 100.0%;">539 rides</div>`)[0];
+                popup_209fee2839a288ede40b3c1f2a2baf43.setContent(html_79f307c4cfb32df91238dd0c918042ea);
+            
+        
+
+        poly_line_974019b8ba7c5fe5b1c00faecc3913f8.bindPopup(popup_209fee2839a288ede40b3c1f2a2baf43)
+        ;
+
+        
+    
+    
+            poly_line_974019b8ba7c5fe5b1c00faecc3913f8.bindTooltip(
+                `<div>
+                     Route from MIT Vassar St to MIT Vassar St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4752ab643ffb97098e5aac9a31b46b4f = L.polyline(
+                [[42.3625, -71.08822], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#86d0bbff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#86d0bbff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_024d4379484624177e4d6253e85bd077 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3855b38c64d2f5f0883e4e1578811ca = $(`<div id="html_f3855b38c64d2f5f0883e4e1578811ca" style="width: 100.0%; height: 100.0%;">537 rides</div>`)[0];
+                popup_024d4379484624177e4d6253e85bd077.setContent(html_f3855b38c64d2f5f0883e4e1578811ca);
+            
+        
+
+        poly_line_4752ab643ffb97098e5aac9a31b46b4f.bindPopup(popup_024d4379484624177e4d6253e85bd077)
+        ;
+
+        
+    
+    
+            poly_line_4752ab643ffb97098e5aac9a31b46b4f.bindTooltip(
+                `<div>
+                     Route from Ames St at Main St to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e433822f01c66b94df964ed2c95f08ef = L.polyline(
+                [[42.331184, -71.095171], [42.339202, -71.090511]],
+                {"bubblingMouseEvents": true, "color": "#88d1baff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#88d1baff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_84c46e22e202b13b2862146834367088 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_240fde8ea22433ee89e7693834a2afab = $(`<div id="html_240fde8ea22433ee89e7693834a2afab" style="width: 100.0%; height: 100.0%;">533 rides</div>`)[0];
+                popup_84c46e22e202b13b2862146834367088.setContent(html_240fde8ea22433ee89e7693834a2afab);
+            
+        
+
+        poly_line_e433822f01c66b94df964ed2c95f08ef.bindPopup(popup_84c46e22e202b13b2862146834367088)
+        ;
+
+        
+    
+    
+            poly_line_e433822f01c66b94df964ed2c95f08ef.bindTooltip(
+                `<div>
+                     Route from Roxbury Crossing T Stop - Columbus Ave at Tremont St to Forsyth St at Huntington Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7034b0f047bfadced76404f47295900e = L.polyline(
+                [[42.369239, -71.11687], [42.373268, -71.118579]],
+                {"bubblingMouseEvents": true, "color": "#8cd2baff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8cd2baff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_33b5d6f6d0e333fc535868715b138e36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b9d1c4709bf2289df8675c9cbcaa5d3 = $(`<div id="html_0b9d1c4709bf2289df8675c9cbcaa5d3" style="width: 100.0%; height: 100.0%;">522 rides</div>`)[0];
+                popup_33b5d6f6d0e333fc535868715b138e36.setContent(html_0b9d1c4709bf2289df8675c9cbcaa5d3);
+            
+        
+
+        poly_line_7034b0f047bfadced76404f47295900e.bindPopup(popup_33b5d6f6d0e333fc535868715b138e36)
+        ;
+
+        
+    
+    
+            poly_line_7034b0f047bfadced76404f47295900e.bindTooltip(
+                `<div>
+                     Route from Harvard University River Houses at DeWolfe St / Cowperthwaite St to Harvard Square at Mass Ave/ Dunster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9ff51dba92d121796b603424c0543655 = L.polyline(
+                [[42.360542, -71.086698], [42.355601, -71.103945]],
+                {"bubblingMouseEvents": true, "color": "#8dd3baff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8dd3baff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_0ad63a2ab03e92173d60429eadacd4c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b21f405fb1c2bc6b109b8707617e7c4 = $(`<div id="html_7b21f405fb1c2bc6b109b8707617e7c4" style="width: 100.0%; height: 100.0%;">521 rides</div>`)[0];
+                popup_0ad63a2ab03e92173d60429eadacd4c7.setContent(html_7b21f405fb1c2bc6b109b8707617e7c4);
+            
+        
+
+        poly_line_9ff51dba92d121796b603424c0543655.bindPopup(popup_0ad63a2ab03e92173d60429eadacd4c7)
+        ;
+
+        
+    
+    
+            poly_line_9ff51dba92d121796b603424c0543655.bindTooltip(
+                `<div>
+                     Route from MIT Carleton St at Amherst St to MIT Vassar St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b3556beec886a3a3fac1d0335d42925e = L.polyline(
+                [[42.362428, -71.084955], [42.3581, -71.093198]],
+                {"bubblingMouseEvents": true, "color": "#8ed3baff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8ed3baff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_347aca4f354902aff6dbdb1c7d3f49bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab67bc3d7e2a40f6f9b51f121a489646 = $(`<div id="html_ab67bc3d7e2a40f6f9b51f121a489646" style="width: 100.0%; height: 100.0%;">518 rides</div>`)[0];
+                popup_347aca4f354902aff6dbdb1c7d3f49bc.setContent(html_ab67bc3d7e2a40f6f9b51f121a489646);
+            
+        
+
+        poly_line_b3556beec886a3a3fac1d0335d42925e.bindPopup(popup_347aca4f354902aff6dbdb1c7d3f49bc)
+        ;
+
+        
+    
+    
+            poly_line_b3556beec886a3a3fac1d0335d42925e.bindTooltip(
+                `<div>
+                     Route from Kendall T to MIT at Mass Ave / Amherst St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aab06ce51a28aec1f8756487c4153f24 = L.polyline(
+                [[42.339202, -71.090511], [42.344651, -71.097325]],
+                {"bubblingMouseEvents": true, "color": "#8fd3baff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8fd3baff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_d30cea3010270fc051951594ab11bfa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e372bec17d818ffc73d03f93b963002 = $(`<div id="html_3e372bec17d818ffc73d03f93b963002" style="width: 100.0%; height: 100.0%;">516 rides</div>`)[0];
+                popup_d30cea3010270fc051951594ab11bfa4.setContent(html_3e372bec17d818ffc73d03f93b963002);
+            
+        
+
+        poly_line_aab06ce51a28aec1f8756487c4153f24.bindPopup(popup_d30cea3010270fc051951594ab11bfa4)
+        ;
+
+        
+    
+    
+            poly_line_aab06ce51a28aec1f8756487c4153f24.bindTooltip(
+                `<div>
+                     Route from Forsyth St at Huntington Ave to Boylston St at Jersey St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5c50a011e876b334b453932d67777a0f = L.polyline(
+                [[42.366426, -71.105495], [42.373268, -71.118579]],
+                {"bubblingMouseEvents": true, "color": "#90d4baff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#90d4baff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_1a527a20ca9cc3ddc61c33d15718684e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7585bc146357bd0390423769352fef3 = $(`<div id="html_c7585bc146357bd0390423769352fef3" style="width: 100.0%; height: 100.0%;">513 rides</div>`)[0];
+                popup_1a527a20ca9cc3ddc61c33d15718684e.setContent(html_c7585bc146357bd0390423769352fef3);
+            
+        
+
+        poly_line_5c50a011e876b334b453932d67777a0f.bindPopup(popup_1a527a20ca9cc3ddc61c33d15718684e)
+        ;
+
+        
+    
+    
+            poly_line_5c50a011e876b334b453932d67777a0f.bindTooltip(
+                `<div>
+                     Route from Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St to Harvard Square at Mass Ave/ Dunster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3836dddc861340ad738020a9582c4bdd = L.polyline(
+                [[42.353178, -71.048174], [42.362811, -71.056067]],
+                {"bubblingMouseEvents": true, "color": "#90d4baff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#90d4baff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_3be6b3f1d164833c924bd6918dfaef7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a254c9d77a40645c18fb511ad8c7dec4 = $(`<div id="html_a254c9d77a40645c18fb511ad8c7dec4" style="width: 100.0%; height: 100.0%;">512 rides</div>`)[0];
+                popup_3be6b3f1d164833c924bd6918dfaef7e.setContent(html_a254c9d77a40645c18fb511ad8c7dec4);
+            
+        
+
+        poly_line_3836dddc861340ad738020a9582c4bdd.bindPopup(popup_3be6b3f1d164833c924bd6918dfaef7e)
+        ;
+
+        
+    
+    
+            poly_line_3836dddc861340ad738020a9582c4bdd.bindTooltip(
+                `<div>
+                     Route from Seaport Blvd at Sleeper St to Cross St at Hanover St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2f1d28f66cccf04dcb828451fc612f22 = L.polyline(
+                [[42.36507, -71.1031], [42.357219, -71.113872]],
+                {"bubblingMouseEvents": true, "color": "#93d5b9ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#93d5b9ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_5465e12559f8a42d422857e1597be43e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_631f3804305b84432826e7a6459ec299 = $(`<div id="html_631f3804305b84432826e7a6459ec299" style="width: 100.0%; height: 100.0%;">506 rides</div>`)[0];
+                popup_5465e12559f8a42d422857e1597be43e.setContent(html_631f3804305b84432826e7a6459ec299);
+            
+        
+
+        poly_line_2f1d28f66cccf04dcb828451fc612f22.bindPopup(popup_5465e12559f8a42d422857e1597be43e)
+        ;
+
+        
+    
+    
+            poly_line_2f1d28f66cccf04dcb828451fc612f22.bindTooltip(
+                `<div>
+                     Route from Central Square at Mass Ave / Essex St to Lower Cambridgeport at Magazine St / Riverside Rd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f398edf621165cddb7e4fff498511196 = L.polyline(
+                [[42.362131, -71.091156], [42.36507, -71.1031]],
+                {"bubblingMouseEvents": true, "color": "#94d5b9ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#94d5b9ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_1278d8f307186799fdf9757777b2d689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1adc851f886f645c539803daf657411b = $(`<div id="html_1adc851f886f645c539803daf657411b" style="width: 100.0%; height: 100.0%;">503 rides</div>`)[0];
+                popup_1278d8f307186799fdf9757777b2d689.setContent(html_1adc851f886f645c539803daf657411b);
+            
+        
+
+        poly_line_f398edf621165cddb7e4fff498511196.bindPopup(popup_1278d8f307186799fdf9757777b2d689)
+        ;
+
+        
+    
+    
+            poly_line_f398edf621165cddb7e4fff498511196.bindTooltip(
+                `<div>
+                     Route from MIT Stata Center at Vassar St / Main St to Central Square at Mass Ave / Essex St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aaee817034f8b213bca06b9b02f3bcaa = L.polyline(
+                [[42.380287, -71.125107], [42.369239, -71.11687]],
+                {"bubblingMouseEvents": true, "color": "#94d6b9ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#94d6b9ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_041fa7a3d750b0a99a387deda2d21edd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fddb292630df40506dcfcbf02937a82 = $(`<div id="html_3fddb292630df40506dcfcbf02937a82" style="width: 100.0%; height: 100.0%;">501 rides</div>`)[0];
+                popup_041fa7a3d750b0a99a387deda2d21edd.setContent(html_3fddb292630df40506dcfcbf02937a82);
+            
+        
+
+        poly_line_aaee817034f8b213bca06b9b02f3bcaa.bindPopup(popup_041fa7a3d750b0a99a387deda2d21edd)
+        ;
+
+        
+    
+    
+            poly_line_aaee817034f8b213bca06b9b02f3bcaa.bindTooltip(
+                `<div>
+                     Route from Harvard University Radcliffe Quadrangle at Shepard St / Garden St to Harvard University River Houses at DeWolfe St / Cowperthwaite St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b51fbe1976c668c8c619ecf3eabe30f3 = L.polyline(
+                [[42.36507, -71.1031], [42.36507, -71.1031]],
+                {"bubblingMouseEvents": true, "color": "#95d6b9ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#95d6b9ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_d3b37b4aaf3ab55bea6ca1f8fd6f4f76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87db40001108ffe53d889c405219de20 = $(`<div id="html_87db40001108ffe53d889c405219de20" style="width: 100.0%; height: 100.0%;">499 rides</div>`)[0];
+                popup_d3b37b4aaf3ab55bea6ca1f8fd6f4f76.setContent(html_87db40001108ffe53d889c405219de20);
+            
+        
+
+        poly_line_b51fbe1976c668c8c619ecf3eabe30f3.bindPopup(popup_d3b37b4aaf3ab55bea6ca1f8fd6f4f76)
+        ;
+
+        
+    
+    
+            poly_line_b51fbe1976c668c8c619ecf3eabe30f3.bindTooltip(
+                `<div>
+                     Route from Central Square at Mass Ave / Essex St to Central Square at Mass Ave / Essex St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_121c32ce9722dba771d8ce6fabac8e20 = L.polyline(
+                [[42.3581, -71.093198], [42.363565, -71.100442]],
+                {"bubblingMouseEvents": true, "color": "#96d6b9ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#96d6b9ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_04d798f1cd7ef45581761de26270f2b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9fbf46cbf41c86af9c4917b4fb7b665 = $(`<div id="html_a9fbf46cbf41c86af9c4917b4fb7b665" style="width: 100.0%; height: 100.0%;">498 rides</div>`)[0];
+                popup_04d798f1cd7ef45581761de26270f2b9.setContent(html_a9fbf46cbf41c86af9c4917b4fb7b665);
+            
+        
+
+        poly_line_121c32ce9722dba771d8ce6fabac8e20.bindPopup(popup_04d798f1cd7ef45581761de26270f2b9)
+        ;
+
+        
+    
+    
+            poly_line_121c32ce9722dba771d8ce6fabac8e20.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to Mass Ave/Lafayette Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e76100389e01521c5d4a5ea9717224b8 = L.polyline(
+                [[42.357219, -71.113872], [42.36507, -71.1031]],
+                {"bubblingMouseEvents": true, "color": "#96d6b9ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#96d6b9ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_6ac4e6f4f76478746e4a72d5c47f70e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1f8b1b033ee2fa647cc24643c73a0fa = $(`<div id="html_d1f8b1b033ee2fa647cc24643c73a0fa" style="width: 100.0%; height: 100.0%;">496 rides</div>`)[0];
+                popup_6ac4e6f4f76478746e4a72d5c47f70e2.setContent(html_d1f8b1b033ee2fa647cc24643c73a0fa);
+            
+        
+
+        poly_line_e76100389e01521c5d4a5ea9717224b8.bindPopup(popup_6ac4e6f4f76478746e4a72d5c47f70e2)
+        ;
+
+        
+    
+    
+            poly_line_e76100389e01521c5d4a5ea9717224b8.bindTooltip(
+                `<div>
+                     Route from Lower Cambridgeport at Magazine St / Riverside Rd to Central Square at Mass Ave / Essex St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9790dd04fc6395e6c86c5f38457f0df9 = L.polyline(
+                [[42.3581, -71.093198], [42.348804, -71.082369]],
+                {"bubblingMouseEvents": true, "color": "#98d7b9ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#98d7b9ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_80dd73e8abe29743dc4984c0fa705817 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a10cc3fe261e343d87ef825bd35a4f22 = $(`<div id="html_a10cc3fe261e343d87ef825bd35a4f22" style="width: 100.0%; height: 100.0%;">491 rides</div>`)[0];
+                popup_80dd73e8abe29743dc4984c0fa705817.setContent(html_a10cc3fe261e343d87ef825bd35a4f22);
+            
+        
+
+        poly_line_9790dd04fc6395e6c86c5f38457f0df9.bindPopup(popup_80dd73e8abe29743dc4984c0fa705817)
+        ;
+
+        
+    
+    
+            poly_line_9790dd04fc6395e6c86c5f38457f0df9.bindTooltip(
+                `<div>
+                     Route from MIT at Mass Ave / Amherst St to Boylston St at Fairfield St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5280aafcb2238743258af295ba1e87a6 = L.polyline(
+                [[42.368952, -71.109988], [42.36507, -71.1031]],
+                {"bubblingMouseEvents": true, "color": "#99d7b9ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#99d7b9ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_0c4f5ad9646a8e30faa6e82ae8f6858f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfd09995910a35867c3d5bc8864ca978 = $(`<div id="html_dfd09995910a35867c3d5bc8864ca978" style="width: 100.0%; height: 100.0%;">489 rides</div>`)[0];
+                popup_0c4f5ad9646a8e30faa6e82ae8f6858f.setContent(html_dfd09995910a35867c3d5bc8864ca978);
+            
+        
+
+        poly_line_5280aafcb2238743258af295ba1e87a6.bindPopup(popup_0c4f5ad9646a8e30faa6e82ae8f6858f)
+        ;
+
+        
+    
+    
+            poly_line_5280aafcb2238743258af295ba1e87a6.bindTooltip(
+                `<div>
+                     Route from 955 Mass Ave to Central Square at Mass Ave / Essex St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3af641fadd89136864f1b33539aa4a6a = L.polyline(
+                [[42.36507, -71.1031], [42.357662, -71.108413]],
+                {"bubblingMouseEvents": true, "color": "#9bd8b8ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9bd8b8ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_901d2e96e40483e8bff0752bc3814a09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af2c5018fe31a4c4586a44cc74e0f226 = $(`<div id="html_af2c5018fe31a4c4586a44cc74e0f226" style="width: 100.0%; height: 100.0%;">484 rides</div>`)[0];
+                popup_901d2e96e40483e8bff0752bc3814a09.setContent(html_af2c5018fe31a4c4586a44cc74e0f226);
+            
+        
+
+        poly_line_3af641fadd89136864f1b33539aa4a6a.bindPopup(popup_901d2e96e40483e8bff0752bc3814a09)
+        ;
+
+        
+    
+    
+            poly_line_3af641fadd89136864f1b33539aa4a6a.bindTooltip(
+                `<div>
+                     Route from Central Square at Mass Ave / Essex St to Old Morse Park at Putnam Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_69673d97abc817323451ed450ae9a177 = L.polyline(
+                [[42.369239, -71.11687], [42.380287, -71.125107]],
+                {"bubblingMouseEvents": true, "color": "#9bd8b8ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9bd8b8ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_ba2e2e2eec149d2bb00724a3b64c34a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8de5362f644163d75bb752228cad3ba9 = $(`<div id="html_8de5362f644163d75bb752228cad3ba9" style="width: 100.0%; height: 100.0%;">484 rides</div>`)[0];
+                popup_ba2e2e2eec149d2bb00724a3b64c34a5.setContent(html_8de5362f644163d75bb752228cad3ba9);
+            
+        
+
+        poly_line_69673d97abc817323451ed450ae9a177.bindPopup(popup_ba2e2e2eec149d2bb00724a3b64c34a5)
+        ;
+
+        
+    
+    
+            poly_line_69673d97abc817323451ed450ae9a177.bindTooltip(
+                `<div>
+                     Route from Harvard University River Houses at DeWolfe St / Cowperthwaite St to Harvard University Radcliffe Quadrangle at Shepard St / Garden St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_181c02a8535193acf12ea1a5903bb768 = L.polyline(
+                [[42.335099, -71.079038], [42.336244, -71.087986]],
+                {"bubblingMouseEvents": true, "color": "#9cd9b8ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9cd9b8ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_19d708a6ca6bf74d7c4939781933c4f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d47587c8dd9f453b68ea04b0c86fd8f4 = $(`<div id="html_d47587c8dd9f453b68ea04b0c86fd8f4" style="width: 100.0%; height: 100.0%;">481 rides</div>`)[0];
+                popup_19d708a6ca6bf74d7c4939781933c4f2.setContent(html_d47587c8dd9f453b68ea04b0c86fd8f4);
+            
+        
+
+        poly_line_181c02a8535193acf12ea1a5903bb768.bindPopup(popup_19d708a6ca6bf74d7c4939781933c4f2)
+        ;
+
+        
+    
+    
+            poly_line_181c02a8535193acf12ea1a5903bb768.bindTooltip(
+                `<div>
+                     Route from Washington St at Lenox St to Ruggles T Stop - Columbus Ave at Melnea Cass Blvd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_99d2df37e9e18b1d3f7437a4a67bc110 = L.polyline(
+                [[42.334629, -71.104079], [42.339202, -71.090511]],
+                {"bubblingMouseEvents": true, "color": "#9dd9b8ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9dd9b8ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_ffd5575b538f41f90f85c55650240397 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c2550dfd74a233b9ad526908a19c883 = $(`<div id="html_1c2550dfd74a233b9ad526908a19c883" style="width: 100.0%; height: 100.0%;">479 rides</div>`)[0];
+                popup_ffd5575b538f41f90f85c55650240397.setContent(html_1c2550dfd74a233b9ad526908a19c883);
+            
+        
+
+        poly_line_99d2df37e9e18b1d3f7437a4a67bc110.bindPopup(popup_ffd5575b538f41f90f85c55650240397)
+        ;
+
+        
+    
+    
+            poly_line_99d2df37e9e18b1d3f7437a4a67bc110.bindTooltip(
+                `<div>
+                     Route from Brigham Circle - Francis St at Huntington Ave to Forsyth St at Huntington Ave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7f1e6e15a4df6a70a19a61198450b53e = L.polyline(
+                [[42.347241, -71.105301], [42.351692, -71.119035]],
+                {"bubblingMouseEvents": true, "color": "#a0dab8ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#a0dab8ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_9d4f95d0797cdf6b253df07f88b53651 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b52215d50c098fa159a9ef056b7cfe2 = $(`<div id="html_9b52215d50c098fa159a9ef056b7cfe2" style="width: 100.0%; height: 100.0%;">471 rides</div>`)[0];
+                popup_9d4f95d0797cdf6b253df07f88b53651.setContent(html_9b52215d50c098fa159a9ef056b7cfe2);
+            
+        
+
+        poly_line_7f1e6e15a4df6a70a19a61198450b53e.bindPopup(popup_9d4f95d0797cdf6b253df07f88b53651)
+        ;
+
+        
+    
+    
+            poly_line_7f1e6e15a4df6a70a19a61198450b53e.bindTooltip(
+                `<div>
+                     Route from Park Dr at Buswell St to Commonwealth Ave at Agganis Way
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8658d9079201d6cfe30f769330eb5921 = L.polyline(
+                [[42.351692, -71.119035], [42.347241, -71.105301]],
+                {"bubblingMouseEvents": true, "color": "#a0dab8ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#a0dab8ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_88eb8e6735b8de8266fa289e9e3a3d10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bcf662d5cd042f71cafba84b7f61672 = $(`<div id="html_0bcf662d5cd042f71cafba84b7f61672" style="width: 100.0%; height: 100.0%;">471 rides</div>`)[0];
+                popup_88eb8e6735b8de8266fa289e9e3a3d10.setContent(html_0bcf662d5cd042f71cafba84b7f61672);
+            
+        
+
+        poly_line_8658d9079201d6cfe30f769330eb5921.bindPopup(popup_88eb8e6735b8de8266fa289e9e3a3d10)
+        ;
+
+        
+    
+    
+            poly_line_8658d9079201d6cfe30f769330eb5921.bindTooltip(
+                `<div>
+                     Route from Commonwealth Ave at Agganis Way to Park Dr at Buswell St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_395719962ccafdddf620ed220ea0226e = L.polyline(
+                [[42.369239, -71.11687], [42.377945, -71.116865]],
+                {"bubblingMouseEvents": true, "color": "#a2dbb8ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#a2dbb8ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+        
+    
+        var popup_29f391d2ecd00826e2f8ab1d96634a5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87d6c88a35dbbcd239d4630839986cd0 = $(`<div id="html_87d6c88a35dbbcd239d4630839986cd0" style="width: 100.0%; height: 100.0%;">467 rides</div>`)[0];
+                popup_29f391d2ecd00826e2f8ab1d96634a5b.setContent(html_87d6c88a35dbbcd239d4630839986cd0);
+            
+        
+
+        poly_line_395719962ccafdddf620ed220ea0226e.bindPopup(popup_29f391d2ecd00826e2f8ab1d96634a5b)
+        ;
+
+        
+    
+    
+            poly_line_395719962ccafdddf620ed220ea0226e.bindTooltip(
+                `<div>
+                     Route from Harvard University River Houses at DeWolfe St / Cowperthwaite St to Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+    var color_map_7f26149ad7035763a371ce3b47b6f29c = {};
+
+    
+    color_map_7f26149ad7035763a371ce3b47b6f29c.color = d3.scale.threshold()
+              .domain([0.0, 2.9719438877755513, 5.943887775551103, 8.915831663326653, 11.887775551102205, 14.859719438877756, 17.831663326653306, 20.803607214428858, 23.77555110220441, 26.74749498997996, 29.71943887775551, 32.69138276553106, 35.66332665330661, 38.635270541082164, 41.607214428857716, 44.57915831663327, 47.55110220440882, 50.523046092184366, 53.49498997995992, 56.46693386773547, 59.43887775551102, 62.410821643286575, 65.38276553106212, 68.35470941883767, 71.32665330661322, 74.29859719438878, 77.27054108216433, 80.24248496993988, 83.21442885771543, 86.18637274549098, 89.15831663326654, 92.13026052104209, 95.10220440881764, 98.07414829659318, 101.04609218436873, 104.01803607214428, 106.98997995991984, 109.96192384769539, 112.93386773547094, 115.90581162324649, 118.87775551102204, 121.8496993987976, 124.82164328657315, 127.7935871743487, 130.76553106212424, 133.7374749498998, 136.70941883767534, 139.6813627254509, 142.65330661322645, 145.625250501002, 148.59719438877755, 151.5691382765531, 154.54108216432866, 157.5130260521042, 160.48496993987976, 163.4569138276553, 166.42885771543087, 169.40080160320642, 172.37274549098197, 175.34468937875752, 178.31663326653307, 181.28857715430863, 184.26052104208418, 187.23246492985973, 190.20440881763528, 193.17635270541084, 196.14829659318636, 199.1202404809619, 202.09218436873746, 205.06412825651302, 208.03607214428857, 211.00801603206412, 213.97995991983967, 216.95190380761522, 219.92384769539078, 222.89579158316633, 225.86773547094188, 228.83967935871743, 231.81162324649299, 234.78356713426854, 237.7555110220441, 240.72745490981964, 243.6993987975952, 246.67134268537075, 249.6432865731463, 252.61523046092185, 255.5871743486974, 258.55911823647295, 261.5310621242485, 264.50300601202406, 267.4749498997996, 270.44689378757516, 273.4188376753507, 276.39078156312627, 279.3627254509018, 282.3346693386774, 285.3066132264529, 288.2785571142285, 291.250501002004, 294.2224448897796, 297.1943887775551, 300.1663326653307, 303.1382765531062, 306.1102204408818, 309.0821643286573, 312.0541082164329, 315.0260521042084, 317.99799599198394, 320.9699398797595, 323.94188376753505, 326.9138276553106, 329.88577154308615, 332.85771543086173, 335.82965931863725, 338.80160320641284, 341.77354709418836, 344.74549098196394, 347.71743486973946, 350.68937875751504, 353.66132264529057, 356.63326653306615, 359.6052104208417, 362.57715430861725, 365.5490981963928, 368.52104208416836, 371.4929859719439, 374.46492985971946, 377.436873747495, 380.40881763527057, 383.3807615230461, 386.35270541082167, 389.3246492985972, 392.2965931863727, 395.2685370741483, 398.2404809619238, 401.2124248496994, 404.1843687374749, 407.1563126252505, 410.12825651302603, 413.1002004008016, 416.07214428857714, 419.0440881763527, 422.01603206412824, 424.9879759519038, 427.95991983967934, 430.9318637274549, 433.90380761523045, 436.87575150300603, 439.84769539078155, 442.81963927855713, 445.79158316633266, 448.76352705410824, 451.73547094188376, 454.70741482965934, 457.67935871743487, 460.65130260521045, 463.62324649298597, 466.59519038076155, 469.5671342685371, 472.5390781563126, 475.5110220440882, 478.4829659318637, 481.4549098196393, 484.4268537074148, 487.3987975951904, 490.3707414829659, 493.3426853707415, 496.314629258517, 499.2865731462926, 502.2585170340681, 505.2304609218437, 508.2024048096192, 511.1743486973948, 514.1462925851704, 517.1182364729459, 520.0901803607214, 523.062124248497, 526.0340681362726, 529.0060120240481, 531.9779559118236, 534.9498997995992, 537.9218436873748, 540.8937875751503, 543.8657314629259, 546.8376753507014, 549.8096192384769, 552.7815631262525, 555.7535070140281, 558.7254509018036, 561.6973947895791, 564.6693386773547, 567.6412825651303, 570.6132264529058, 573.5851703406813, 576.557114228457, 579.5290581162325, 582.501002004008, 585.4729458917835, 588.4448897795592, 591.4168336673347, 594.3887775551102, 597.3607214428857, 600.3326653306614, 603.3046092184369, 606.2765531062124, 609.2484969939879, 612.2204408817636, 615.1923847695391, 618.1643286573146, 621.1362725450902, 624.1082164328658, 627.0801603206413, 630.0521042084168, 633.0240480961924, 635.9959919839679, 638.9679358717435, 641.939879759519, 644.9118236472946, 647.8837675350701, 650.8557114228457, 653.8276553106213, 656.7995991983968, 659.7715430861723, 662.7434869739479, 665.7154308617235, 668.687374749499, 671.6593186372745, 674.6312625250501, 677.6032064128257, 680.5751503006012, 683.5470941883767, 686.5190380761524, 689.4909819639279, 692.4629258517034, 695.4348697394789, 698.4068136272546, 701.3787575150301, 704.3507014028056, 707.3226452905811, 710.2945891783567, 713.2665330661323, 716.2384769539078, 719.2104208416833, 722.1823647294589, 725.1543086172345, 728.12625250501, 731.0981963927856, 734.0701402805611, 737.0420841683367, 740.0140280561122, 742.9859719438878, 745.9579158316633, 748.9298597194389, 751.9018036072144, 754.87374749499, 757.8456913827655, 760.8176352705411, 763.7895791583167, 766.7615230460922, 769.7334669338677, 772.7054108216433, 775.6773547094189, 778.6492985971944, 781.6212424849699, 784.5931863727454, 787.5651302605211, 790.5370741482966, 793.5090180360721, 796.4809619238476, 799.4529058116233, 802.4248496993988, 805.3967935871743, 808.3687374749499, 811.3406813627255, 814.312625250501, 817.2845691382765, 820.2565130260521, 823.2284569138277, 826.2004008016032, 829.1723446893787, 832.1442885771543, 835.1162324649299, 838.0881763527054, 841.060120240481, 844.0320641282565, 847.0040080160321, 849.9759519038076, 852.9478957915832, 855.9198396793587, 858.8917835671342, 861.8637274549098, 864.8356713426854, 867.8076152304609, 870.7795591182364, 873.7515030060121, 876.7234468937876, 879.6953907815631, 882.6673346693386, 885.6392785571143, 888.6112224448898, 891.5831663326653, 894.5551102204408, 897.5270541082165, 900.498997995992, 903.4709418837675, 906.442885771543, 909.4148296593187, 912.3867735470942, 915.3587174348697, 918.3306613226453, 921.3026052104209, 924.2745490981964, 927.2464929859719, 930.2184368737475, 933.1903807615231, 936.1623246492986, 939.1342685370741, 942.1062124248497, 945.0781563126252, 948.0501002004008, 951.0220440881764, 953.9939879759519, 956.9659318637274, 959.937875751503, 962.9098196392786, 965.8817635270541, 968.8537074148296, 971.8256513026053, 974.7975951903808, 977.7695390781563, 980.7414829659318, 983.7134268537075, 986.685370741483, 989.6573146292585, 992.629258517034, 995.6012024048097, 998.5731462925852, 1001.5450901803607, 1004.5170340681362, 1007.4889779559119, 1010.4609218436874, 1013.4328657314629, 1016.4048096192384, 1019.376753507014, 1022.3486973947896, 1025.320641282565, 1028.2925851703408, 1031.2645290581163, 1034.2364729458918, 1037.2084168336673, 1040.1803607214429, 1043.1523046092184, 1046.124248496994, 1049.0961923847694, 1052.0681362725452, 1055.0400801603207, 1058.0120240480962, 1060.9839679358718, 1063.9559118236473, 1066.9278557114228, 1069.8997995991983, 1072.8717434869739, 1075.8436873747496, 1078.8156312625251, 1081.7875751503007, 1084.7595190380762, 1087.7314629258517, 1090.7034068136272, 1093.6753507014027, 1096.6472945891783, 1099.6192384769538, 1102.5911823647295, 1105.563126252505, 1108.5350701402806, 1111.5070140280561, 1114.4789579158316, 1117.4509018036072, 1120.4228456913827, 1123.3947895791582, 1126.366733466934, 1129.3386773547095, 1132.310621242485, 1135.2825651302605, 1138.254509018036, 1141.2264529058116, 1144.198396793587, 1147.1703406813626, 1150.1422845691384, 1153.114228456914, 1156.0861723446894, 1159.058116232465, 1162.0300601202405, 1165.002004008016, 1167.9739478957915, 1170.945891783567, 1173.9178356713426, 1176.8897795591183, 1179.8617234468938, 1182.8336673346694, 1185.805611222445, 1188.7775551102204, 1191.749498997996, 1194.7214428857715, 1197.693386773547, 1200.6653306613227, 1203.6372745490983, 1206.6092184368738, 1209.5811623246493, 1212.5531062124248, 1215.5250501002004, 1218.4969939879759, 1221.4689378757514, 1224.4408817635272, 1227.4128256513027, 1230.3847695390782, 1233.3567134268537, 1236.3286573146293, 1239.3006012024048, 1242.2725450901803, 1245.2444889779558, 1248.2164328657316, 1251.188376753507, 1254.1603206412826, 1257.1322645290581, 1260.1042084168337, 1263.0761523046092, 1266.0480961923847, 1269.0200400801602, 1271.9919839679358, 1274.9639278557115, 1277.935871743487, 1280.9078156312626, 1283.879759519038, 1286.8517034068136, 1289.8236472945891, 1292.7955911823647, 1295.7675350701402, 1298.739478957916, 1301.7114228456915, 1304.683366733467, 1307.6553106212425, 1310.627254509018, 1313.5991983967936, 1316.571142284569, 1319.5430861723446, 1322.5150300601204, 1325.4869739478959, 1328.4589178356714, 1331.430861723447, 1334.4028056112224, 1337.374749498998, 1340.3466933867735, 1343.318637274549, 1346.2905811623245, 1349.2625250501003, 1352.2344689378758, 1355.2064128256513, 1358.1783567134269, 1361.1503006012024, 1364.122244488978, 1367.0941883767534, 1370.066132264529, 1373.0380761523047, 1376.0100200400802, 1378.9819639278558, 1381.9539078156313, 1384.9258517034068, 1387.8977955911823, 1390.8697394789579, 1393.8416833667334, 1396.8136272545091, 1399.7855711422847, 1402.7575150300602, 1405.7294589178357, 1408.7014028056112, 1411.6733466933867, 1414.6452905811623, 1417.6172344689378, 1420.5891783567133, 1423.561122244489, 1426.5330661322646, 1429.5050100200401, 1432.4769539078156, 1435.4488977955912, 1438.4208416833667, 1441.3927855711422, 1444.3647294589177, 1447.3366733466935, 1450.308617234469, 1453.2805611222445, 1456.25250501002, 1459.2244488977956, 1462.196392785571, 1465.1683366733466, 1468.1402805611222, 1471.112224448898, 1474.0841683366734, 1477.056112224449, 1480.0280561122245, 1483.0])
+              .range(['#ffffd9ff', '#ffffd9ff', '#ffffd8ff', '#ffffd7ff', '#feffd7ff', '#feffd6ff', '#feffd5ff', '#fdffd5ff', '#fdffd4ff', '#fdfed4ff', '#fdfed3ff', '#fcfed2ff', '#fcfed2ff', '#fcfed1ff', '#fbfed0ff', '#fbfed0ff', '#fbfecfff', '#fbfeceff', '#fafdceff', '#fafdcdff', '#fafdccff', '#f9fdccff', '#f9fdcbff', '#f9fdcbff', '#f9fdcaff', '#f8fdc9ff', '#f8fdc9ff', '#f8fcc8ff', '#f7fcc7ff', '#f7fcc7ff', '#f7fcc6ff', '#f7fcc5ff', '#f6fcc5ff', '#f6fcc4ff', '#f6fcc3ff', '#f5fcc3ff', '#f5fbc2ff', '#f5fbc2ff', '#f4fbc1ff', '#f4fbc0ff', '#f4fbc0ff', '#f4fbbfff', '#f3fbbeff', '#f3fbbeff', '#f3fbbdff', '#f2fabcff', '#f2fabcff', '#f2fabbff', '#f2fabaff', '#f1fabaff', '#f1fab9ff', '#f1fab9ff', '#f0fab8ff', '#f0fab7ff', '#f0f9b7ff', '#f0f9b6ff', '#eff9b5ff', '#eff9b5ff', '#eff9b4ff', '#eef9b3ff', '#eef9b3ff', '#eef9b2ff', '#eef9b1ff', '#edf8b1ff', '#ecf8b1ff', '#ecf8b1ff', '#ebf8b1ff', '#ebf7b1ff', '#eaf7b1ff', '#e9f7b2ff', '#e9f7b2ff', '#e8f6b2ff', '#e8f6b2ff', '#e7f6b2ff', '#e6f6b2ff', '#e6f5b2ff', '#e5f5b2ff', '#e4f5b2ff', '#e4f5b2ff', '#e3f4b2ff', '#e3f4b2ff', '#e2f4b2ff', '#e1f4b2ff', '#e1f3b2ff', '#e0f3b2ff', '#e0f3b2ff', '#dff3b2ff', '#def3b2ff', '#def2b2ff', '#ddf2b2ff', '#ddf2b3ff', '#dcf2b3ff', '#dbf1b3ff', '#dbf1b3ff', '#daf1b3ff', '#d9f1b3ff', '#d9f0b3ff', '#d8f0b3ff', '#d8f0b3ff', '#d7f0b3ff', '#d6efb3ff', '#d6efb3ff', '#d5efb3ff', '#d5efb3ff', '#d4eeb3ff', '#d3eeb3ff', '#d3eeb3ff', '#d2eeb3ff', '#d2edb3ff', '#d1edb3ff', '#d0edb3ff', '#d0edb4ff', '#cfecb4ff', '#ceecb4ff', '#ceecb4ff', '#cdecb4ff', '#cdecb4ff', '#ccebb4ff', '#cbebb4ff', '#cbebb4ff', '#caebb4ff', '#caeab4ff', '#c9eab4ff', '#c8eab4ff', '#c8eab4ff', '#c7e9b4ff', '#c6e9b4ff', '#c5e8b4ff', '#c4e8b5ff', '#c2e7b5ff', '#c1e7b5ff', '#c0e7b5ff', '#bfe6b5ff', '#bee6b5ff', '#bde5b5ff', '#bbe5b5ff', '#bae4b5ff', '#b9e4b6ff', '#b8e3b6ff', '#b7e3b6ff', '#b6e3b6ff', '#b4e2b6ff', '#b3e2b6ff', '#b2e1b6ff', '#b1e1b6ff', '#b0e0b6ff', '#afe0b7ff', '#addfb7ff', '#acdfb7ff', '#abdeb7ff', '#aadeb7ff', '#a9deb7ff', '#a8ddb7ff', '#a7ddb7ff', '#a5dcb8ff', '#a4dcb8ff', '#a3dbb8ff', '#a2dbb8ff', '#a1dab8ff', '#a0dab8ff', '#9edab8ff', '#9dd9b8ff', '#9cd9b8ff', '#9bd8b9ff', '#9ad8b9ff', '#99d7b9ff', '#97d7b9ff', '#96d6b9ff', '#95d6b9ff', '#94d5b9ff', '#93d5b9ff', '#92d5b9ff', '#91d4baff', '#8fd4baff', '#8ed3baff', '#8dd3baff', '#8cd2baff', '#8bd2baff', '#8ad1baff', '#88d1baff', '#87d1baff', '#86d0bbff', '#85d0bbff', '#84cfbbff', '#83cfbbff', '#81cebbff', '#80cebbff', '#7fcdbbff', '#7ecdbbff', '#7dcdbcff', '#7cccbcff', '#7bccbcff', '#7acbbcff', '#79cbbcff', '#78cbbcff', '#77cabcff', '#76cabdff', '#75cabdff', '#74c9bdff', '#73c9bdff', '#72c9bdff', '#71c8bdff', '#70c8bdff', '#6fc7beff', '#6ec7beff', '#6dc7beff', '#6cc6beff', '#6bc6beff', '#6ac6beff', '#69c5beff', '#68c5bfff', '#67c4bfff', '#66c4bfff', '#65c4bfff', '#64c3bfff', '#63c3bfff', '#62c3bfff', '#61c2c0ff', '#60c2c0ff', '#5fc2c0ff', '#5ec1c0ff', '#5dc1c0ff', '#5cc0c0ff', '#5bc0c0ff', '#5ac0c1ff', '#59bfc1ff', '#58bfc1ff', '#57bfc1ff', '#56bec1ff', '#55bec1ff', '#54bdc1ff', '#53bdc2ff', '#52bdc2ff', '#51bcc2ff', '#50bcc2ff', '#4fbcc2ff', '#4ebbc2ff', '#4dbbc2ff', '#4cbac3ff', '#4bbac3ff', '#4abac3ff', '#49b9c3ff', '#48b9c3ff', '#47b9c3ff', '#46b8c3ff', '#45b8c4ff', '#44b8c4ff', '#43b7c4ff', '#42b7c4ff', '#41b6c4ff', '#40b6c4ff', '#40b5c4ff', '#3fb5c4ff', '#3fb4c4ff', '#3eb4c4ff', '#3eb3c4ff', '#3db2c4ff', '#3cb2c4ff', '#3cb1c4ff', '#3bb1c4ff', '#3bb0c4ff', '#3aafc4ff', '#3aafc3ff', '#39aec3ff', '#38aec3ff', '#38adc3ff', '#37acc3ff', '#37acc3ff', '#36abc3ff', '#35abc3ff', '#35aac3ff', '#34a9c3ff', '#34a9c3ff', '#33a8c3ff', '#33a8c3ff', '#32a7c3ff', '#31a6c3ff', '#31a6c2ff', '#30a5c2ff', '#30a5c2ff', '#2fa4c2ff', '#2fa3c2ff', '#2ea3c2ff', '#2da2c2ff', '#2da2c2ff', '#2ca1c2ff', '#2ca0c2ff', '#2ba0c2ff', '#2a9fc2ff', '#2a9fc2ff', '#299ec2ff', '#299dc2ff', '#289dc2ff', '#289cc1ff', '#279cc1ff', '#269bc1ff', '#269bc1ff', '#259ac1ff', '#2599c1ff', '#2499c1ff', '#2398c1ff', '#2398c1ff', '#2297c1ff', '#2296c1ff', '#2196c1ff', '#2195c1ff', '#2095c1ff', '#1f94c1ff', '#1f93c1ff', '#1e93c0ff', '#1e92c0ff', '#1d92c0ff', '#1d91c0ff', '#1d90c0ff', '#1d8fbfff', '#1d8fbfff', '#1d8ebfff', '#1d8dbeff', '#1d8cbeff', '#1d8bbeff', '#1d8abdff', '#1d8abdff', '#1d89bcff', '#1e88bcff', '#1e87bcff', '#1e86bbff', '#1e85bbff', '#1e85baff', '#1e84baff', '#1e83baff', '#1e82b9ff', '#1e81b9ff', '#1e81b8ff', '#1e80b8ff', '#1e7fb8ff', '#1e7eb7ff', '#1f7db7ff', '#1f7cb7ff', '#1f7cb6ff', '#1f7bb6ff', '#1f7ab5ff', '#1f79b5ff', '#1f78b5ff', '#1f78b4ff', '#1f77b4ff', '#1f76b3ff', '#1f75b3ff', '#1f74b3ff', '#2073b2ff', '#2073b2ff', '#2072b2ff', '#2071b1ff', '#2070b1ff', '#206fb0ff', '#206eb0ff', '#206eb0ff', '#206dafff', '#206cafff', '#206baeff', '#206aaeff', '#206aaeff', '#2169adff', '#2168adff', '#2167adff', '#2166acff', '#2165acff', '#2165abff', '#2164abff', '#2163abff', '#2162aaff', '#2161aaff', '#2161a9ff', '#2160a9ff', '#225fa9ff', '#225ea8ff', '#225da8ff', '#225da8ff', '#225ca7ff', '#225ba7ff', '#225ba7ff', '#225aa6ff', '#2259a6ff', '#2259a6ff', '#2258a5ff', '#2257a5ff', '#2257a5ff', '#2256a4ff', '#2255a4ff', '#2255a4ff', '#2254a3ff', '#2253a3ff', '#2253a3ff', '#2252a2ff', '#2351a2ff', '#2351a2ff', '#2350a1ff', '#234fa1ff', '#234ea1ff', '#234ea1ff', '#234da0ff', '#234ca0ff', '#234ca0ff', '#234b9fff', '#234a9fff', '#234a9fff', '#23499eff', '#23489eff', '#23489eff', '#23479dff', '#23469dff', '#23469dff', '#23459cff', '#23449cff', '#24449cff', '#24439bff', '#24429bff', '#24429bff', '#24419aff', '#24409aff', '#24409aff', '#243f99ff', '#243e99ff', '#243e99ff', '#243d98ff', '#243c98ff', '#243c98ff', '#243b98ff', '#243a97ff', '#243a97ff', '#243997ff', '#243896ff', '#243896ff', '#243796ff', '#243695ff', '#253595ff', '#253595ff', '#253494ff', '#243494ff', '#243393ff', '#243392ff', '#233291ff', '#233290ff', '#22328fff', '#22318eff', '#21318dff', '#21318cff', '#20308bff', '#20308aff', '#1f2f89ff', '#1f2f88ff', '#1e2f87ff', '#1e2e86ff', '#1d2e85ff', '#1d2e84ff', '#1d2d83ff', '#1c2d82ff', '#1c2d81ff', '#1b2c80ff', '#1b2c7fff', '#1a2b7eff', '#1a2b7eff', '#192b7dff', '#192a7cff', '#182a7bff', '#182a7aff', '#172979ff', '#172978ff', '#162877ff', '#162876ff', '#162875ff', '#152774ff', '#152773ff', '#142772ff', '#142671ff', '#132670ff', '#13256fff', '#12256eff', '#12256dff', '#11246cff', '#11246bff', '#10246aff', '#102369ff', '#0f2368ff', '#0f2367ff', '#0f2266ff', '#0e2265ff', '#0e2164ff', '#0d2163ff', '#0d2162ff', '#0c2062ff', '#0c2061ff', '#0b2060ff', '#0b1f5fff', '#0a1f5eff', '#0a1e5dff', '#091e5cff', '#091e5bff', '#081d5aff', '#081d59ff', '#081d58ff']);
+    
+
+    color_map_7f26149ad7035763a371ce3b47b6f29c.x = d3.scale.linear()
+              .domain([0.0, 1483.0])
+              .range([0, 450 - 50]);
+
+    color_map_7f26149ad7035763a371ce3b47b6f29c.legend = L.control({position: 'topright'});
+    color_map_7f26149ad7035763a371ce3b47b6f29c.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_7f26149ad7035763a371ce3b47b6f29c.legend.addTo(map_0fde4bc3763bbbdc2b6bac126a7666a7);
+
+    color_map_7f26149ad7035763a371ce3b47b6f29c.xAxis = d3.svg.axis()
+        .scale(color_map_7f26149ad7035763a371ce3b47b6f29c.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([0.0, 185.375, 370.75, 556.125, 741.5, 926.875, 1112.25, 1297.625, 1483.0]);
+
+    color_map_7f26149ad7035763a371ce3b47b6f29c.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_7f26149ad7035763a371ce3b47b6f29c.g = color_map_7f26149ad7035763a371ce3b47b6f29c.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_7f26149ad7035763a371ce3b47b6f29c.g.selectAll("rect")
+        .data(color_map_7f26149ad7035763a371ce3b47b6f29c.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_7f26149ad7035763a371ce3b47b6f29c.x(color_map_7f26149ad7035763a371ce3b47b6f29c.color.domain()[i - 1]) : color_map_7f26149ad7035763a371ce3b47b6f29c.x.range()[0],
+            x1: i < color_map_7f26149ad7035763a371ce3b47b6f29c.color.domain().length ? color_map_7f26149ad7035763a371ce3b47b6f29c.x(color_map_7f26149ad7035763a371ce3b47b6f29c.color.domain()[i]) : color_map_7f26149ad7035763a371ce3b47b6f29c.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_7f26149ad7035763a371ce3b47b6f29c.g.call(color_map_7f26149ad7035763a371ce3b47b6f29c.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text("Number of Rides");
+</script>
+</html>
